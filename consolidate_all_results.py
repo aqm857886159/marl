@@ -12,10 +12,11 @@ OUTPUT_DIR = Path("experiment_outputs_final")
 # 定义指标映射 (PyMARL JSON key -> Unified CSV column)
 PYMARL_METRIC_MAP = {
     "avg_latency_ms": "avg_latency_ms",
+    "p99_latency_ms": "p99_latency_ms",
     "avg_energy_J": "avg_energy_J",
     "deadline_violation_rate": "deadline_violation_rate",
     "throughput_tps": "throughput_tps",
-    "load_balance_jain": "load_balance_jain"
+    "load_balance_jain": "load_balance_jain",
 }
 
 def load_ray_data():
