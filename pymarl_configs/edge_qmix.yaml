@@ -1,0 +1,39 @@
+alg: qmix
+runner: episode
+env: edge_marl
+env_args:
+  n_nodes: 10
+  node_cpu_capacity: [1.0, 1.2, 1.4, 1.6, 1.8, 2.0, 2.2, 2.4, 2.6, 3.0]
+  task_arrival:
+    mode: cyclic
+    rate_range: [5, 15]
+    cycle_seconds: 20.0
+  task_workload_range: [1.0, 10.0]
+  task_data_range: [0.5, 5.0]
+  task_deadline_range_ms: [50, 500]
+  episode_length: 1000
+  reward_weights: {alpha: 0.5, beta: 0.3, gamma: 0.2}
+  action_mode: discrete   # 仅放置决策，资源由环境固定 0.5
+
+agent:
+  type: qmix
+  mixer_embed_dim: 32
+  rnn_hidden_dim: 64
+  lr: 0.0003
+  gamma: 0.99
+  batch_size: 128
+  target_update_interval: 200
+  epsilon:
+    start: 1.0
+    end: 0.05
+    anneal_steps: 1000000
+
+train:
+  total_timesteps: 5000000
+  evaluation_interval: 50000
+  evaluation_episodes: 100
+  num_seeds: [0, 1, 2, 3, 4]
+
+logging:
+  metrics: ["avg_latency_ms", "p99_latency_ms", "avg_energy_J", "throughput_tps", "load_balance_jain"]
+

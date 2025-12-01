@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARL 边缘调度 - 全景知识库 (Project Encyclopedia)</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #34495e;
+            --accent: #3498db;
+            --highlight: #e74c3c;
+            --success: #27ae60;
+            --warning: #f39c12;
+            --light-bg: #f8f9fa;
+            --white: #ffffff;
+            --border: #e0e0e0;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(120deg, #1a2a6c, #b21f1f, #fdbb2d);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        header h1 { margin: 0; font-size: 3em; letter-spacing: 2px; text-shadow: 0 2px 5px rgba(0,0,0,0.3); }
+        header p { font-size: 1.2em; opacity: 0.9; margin-top: 10px; }
+        header .stats { margin-top: 20px; display: flex; justify-content: center; gap: 20px; }
+        header .stat-tag { background: rgba(255,255,255,0.2); padding: 5px 15px; border-radius: 20px; font-size: 0.9em; backdrop-filter: blur(5px); }
+
+        /* Navigation */
+        nav {
+            background: white;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            padding: 0 20px;
+            display: flex;
+            justify-content: center;
+            overflow-x: auto;
+        }
+        nav a {
+            display: block;
+            padding: 15px 20px;
+            color: #555;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        nav a:hover, nav a.active { color: var(--accent); border-bottom-color: var(--accent); background: #f8faff; }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Sections */
+        .section-header {
+            text-align: center;
+            margin: 50px 0 30px;
+            position: relative;
+        }
+        .section-header h2 { font-size: 2.2em; color: var(--primary); margin-bottom: 10px; }
+        .section-header span { display: inline-block; width: 60px; height: 4px; background: var(--accent); }
+        
+        /* Simulation Box */
+        .sim-box {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        @media(max-width: 900px) { .sim-box { grid-template-columns: 1fr; } }
+        
+        canvas { background: #fafafa; border-radius: 10px; width: 100%; border: 1px solid #eee; }
+
+        /* Grid Layouts */
+        .grid-4 { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+        .grid-2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); gap: 30px; }
+
+        /* Knowledge Cards */
+        .k-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            border-left: 4px solid var(--accent);
+            transition: transform 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+        .k-card:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .k-card.rl { border-left-color: var(--accent); }
+        .k-card.edge { border-left-color: var(--success); }
+        .k-card.algo { border-left-color: var(--highlight); }
+        .k-card.exp { border-left-color: var(--warning); }
+
+        .k-card h3 { margin-top: 0; color: var(--primary); font-size: 1.1em; display: flex; justify-content: space-between; align-items: center; }
+        .k-card .idx { font-size: 0.8em; color: #bbb; font-weight: normal; background: #f5f5f5; padding: 2px 8px; border-radius: 10px; }
+        .k-card p { font-size: 0.9em; color: #666; margin-bottom: 0; }
+        .k-card .tag { position: absolute; top: 10px; right: 10px; font-size: 0.7em; opacity: 0.5; }
+
+        /* QA Accordion */
+        .qa-item { background: white; border-radius: 10px; margin-bottom: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.03); overflow: hidden; }
+        .qa-question { padding: 20px; cursor: pointer; font-weight: bold; display: flex; justify-content: space-between; align-items: center; background: #fff; }
+        .qa-question:hover { background: #f9f9f9; color: var(--accent); }
+        .qa-question::after { content: '+'; font-size: 1.5em; color: #ccc; }
+        .qa-answer { padding: 0 20px; max-height: 0; overflow: hidden; transition: all 0.3s ease; background: #fbfbfb; border-top: 1px solid #eee; color: #555; }
+        .qa-item.active .qa-answer { padding: 20px; max-height: 500px; }
+        .qa-item.active .qa-question::after { content: '-'; }
+
+        /* Mermaid Wrapper */
+        .mermaid-box { background: white; padding: 30px; border-radius: 15px; text-align: center; overflow-x: auto; margin-bottom: 30px; }
+
+        /* Footer */
+        footer { text-align: center; padding: 40px; background: #333; color: #888; margin-top: 60px; }
+
+        /* Tooltip */
+        .tooltip-custom {
+            position: absolute; background: rgba(0,0,0,0.9); color: white; padding: 10px 15px;
+            border-radius: 6px; font-size: 12px; pointer-events: none; display: none; z-index: 999; max-width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MARL 边缘调度知识全景</h1>
+    <p>The Complete Encyclopedia of MARL Edge Scheduling</p>
+    <div class="stats">
+        <span class="stat-tag">📚 40+ 核心概念解析</span>
+        <span class="stat-tag">🧠 交互式大脑仿真</span>
+        <span class="stat-tag">🛡️ 答辩级 Q&A 库</span>
+    </div>
+</header>
+
+<nav>
+    <a href="#simulation" class="active">交互仿真</a>
+    <a href="#rl-basics">1. RL 基础概念</a>
+    <a href="#edge-concepts">2. 边缘计算机制</a>
+    <a href="#algo-details">3. 算法深度剖析</a>
+    <a href="#exp-setup">4. 实验参数详解</a>
+    <a href="#defense">5. 答辩 Q&A</a>
+</nav>
+
+<div class="container">
+
+    <!-- 仿真模块 -->
+    <section id="simulation">
+        <div class="section-header">
+            <h2>🚀 交互式系统仿真</h2>
+            <span></span>
+        </div>
+        <div class="sim-box">
+            <div style="position: relative;">
+                <canvas id="simCanvas" width="800" height="500"></canvas>
+                <div id="tooltip" class="tooltip-custom"></div>
+                <div style="position: absolute; bottom: 10px; left: 10px; background: rgba(255,255,255,0.9); padding: 10px; border-radius: 8px; font-size: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                    <div style="display:flex;align-items:center;gap:5px;margin-bottom:3px"><span style="width:12px;height:12px;background:hsl(120,70%,50%);border-radius:50%"></span> 空闲节点 (Load < 30%)</div>
+                    <div style="display:flex;align-items:center;gap:5px;margin-bottom:3px"><span style="width:12px;height:12px;background:hsl(0,70%,50%);border-radius:50%"></span> 满载节点 (Load > 90%)</div>
+                    <div style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;background:#3498db;border-radius:50%"></span> 计算任务 (Task)</div>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column; justify-content: space-between;">
+                <div class="k-card" style="border-left-color: #333; height: 100%;">
+                    <h3>🧠 实时透视</h3>
+                    <p style="margin-bottom: 10px;">点击左侧节点查看详情</p>
+                    <div id="node-details" style="font-size: 0.9em;">
+                        <p><strong>选中节点:</strong> <span id="sel-id">-</span></p>
+                        <p><strong>CPU 能力:</strong> <span id="sel-cpu">-</span> GHz</p>
+                        <p><strong>当前负载:</strong> <span id="sel-load">-</span>%</p>
+                        <p><strong>队列长度:</strong> <span id="sel-queue">-</span></p>
+                        <hr>
+                        <p><strong>当前系统指标:</strong></p>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; text-align: center; margin-top: 10px;">
+                            <div style="background:#f0f2f5; padding:5px; border-radius:5px;">
+                                <div style="font-size:0.8em; color:#888">平均延迟</div>
+                                <div style="font-weight:bold; color:#e74c3c" id="stat-lat">0 ms</div>
+                            </div>
+                            <div style="background:#f0f2f5; padding:5px; border-radius:5px;">
+                                <div style="font-size:0.8em; color:#888">平均能耗</div>
+                                <div style="font-weight:bold; color:#27ae60" id="stat-eng">0 J</div>
+                            </div>
+                        </div>
+                    </div>
+                    <button onclick="initSim()" style="width:100%; margin-top:20px; padding:10px; background:var(--primary); color:white; border:none; border-radius:5px; cursor:pointer;">重置环境</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 1. RL 基础概念 -->
+    <section id="rl-basics">
+        <div class="section-header">
+            <h2>📚 第一章：强化学习基础 (1-10)</h2>
+            <span></span>
+        </div>
+        <div class="grid-4">
+            <div class="k-card rl">
+                <span class="idx">01</span>
+                <h3>Agent (智能体)</h3>
+                <p>在本项目中，每个边缘服务器就是一个 Agent。它感知环境（CPU负载），做出动作（任务调度），并从环境中获得奖励。</p>
+            </div>
+            <div class="k-card rl">
+                <span class="idx">02</span>
+                <h3>Environment (环境)</h3>
+                <p>指整个边缘计算系统，包括所有节点、动态生成的任务流和网络状况。它是 Agent 生存和交互的场所。</p>
+            </div>
+            <div class="k-card rl">
+                <span class="idx">03</span>
+                <h3>State (状态 S)</h3>
+                <p>系统的完整描述。在 CTDE 架构中，Critic 能看到包含所有节点负载的全局状态（Global State）。</p>
+            </div>
+            <div class="k-card rl">
+                <span class="idx">04</span>
+                <h3>Observation (观测 O)</h3>
+                <p>单个 Agent 能看到的局部信息。比如节点 A 只能看到自己的队列和邻居的估算负载，看不到全网的精确数值。</p>
+            </div>
+            <div class="k-card rl">
+                <span class="idx">05</span>
+                <h3>Action (动作 A)</h3>
+                <p>Agent 的决策输出。这里是离散动作空间 [0-9]，代表将当前任务分配给哪一个节点ID。</p>
+            </div>
+            <div class="k-card rl">
+                <span class="idx">06</span>
+                <h3>Reward (奖励 R)</h3>
+                <p>环境给 Agent 的反馈分数。本项目中：R = -(延迟 + 能耗 + 违约率)。负值越小（越接近0）越好。</p>
+            </div>
+            <div class="k-card rl">
+                <span class="idx">07</span>
+                <h3>Policy (策略 π)</h3>
+                <p>Agent 的大脑逻辑，即从观测映射到动作概率的函数。Policy Network 负责输出这个概率分布。</p>
+            </div>
+            <div class="k-card rl">
+                <span class="idx">08</span>
+                <h3>Episode (回合)</h3>
+                <p>一次完整的仿真过程。本项目设定一个 Episode 为 1000 个时间步（Step），之后环境重置。</p>
+            </div>
+            <div class="k-card rl">
+                <span class="idx">09</span>
+                <h3>Discount Factor (折扣因子 γ)</h3>
+                <p>设为 0.99。表示 Agent 很有远见，非常看重未来的长期收益，而不仅仅是眼前的即时奖励。</p>
+            </div>
+            <div class="k-card rl">
+                <span class="idx">10</span>
+                <h3>Exploration (探索)</h3>
+                <p>Agent 尝试一些未知的动作（比如偶尔把任务发给看起来很忙的节点），以防陷入局部最优解。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. 边缘计算概念 -->
+    <section id="edge-concepts">
+        <div class="section-header">
+            <h2>🌍 第二章：边缘计算机制 (11-20)</h2>
+            <span></span>
+        </div>
+        <div class="grid-4">
+            <div class="k-card edge">
+                <span class="idx">11</span>
+                <h3>Task Offloading (任务卸载)</h3>
+                <p>核心业务逻辑。指将本地产生的数据和计算任务，通过网络传输交给其他计算节点处理的过程。</p>
+            </div>
+            <div class="k-card edge">
+                <span class="idx">12</span>
+                <h3>Heterogeneity (异构性)</h3>
+                <p>指节点性能不一样。本项目中 CPU 频率从 1.0GHz 到 3.0GHz 不等，调度时必须考虑“能者多劳”。</p>
+            </div>
+            <div class="k-card edge">
+                <span class="idx">13</span>
+                <h3>Latency (延迟)</h3>
+                <p>任务从产生到完成的总耗时。公式：传输延迟 + 排队等待时间 + 实际计算时间。</p>
+            </div>
+            <div class="k-card edge">
+                <span class="idx">14</span>
+                <h3>Energy Consumption (能耗)</h3>
+                <p>处理任务消耗的电量。公式：E = Power × Time。高性能节点处理快但功率高，需要权衡。</p>
+            </div>
+            <div class="k-card edge">
+                <span class="idx">15</span>
+                <h3>Load Balancing (负载均衡)</h3>
+                <p>调度的核心目标之一。避免出现“一核有难，九核围观”的情况，让所有节点的利用率保持在合理区间。</p>
+            </div>
+            <div class="k-card edge">
+                <span class="idx">16</span>
+                <h3>Poisson Process (泊松过程)</h3>
+                <p>用来模拟任务到达的数学模型。表示任务是随机、独立且平均达到率固定的，符合真实互联网流量特征。</p>
+            </div>
+            <div class="k-card edge">
+                <span class="idx">17</span>
+                <h3>Jain's Fairness Index</h3>
+                <p>衡量系统公平性的指标。范围 0-1，越接近 1 表示大家的负载越平均，是评估调度算法的重要指标。</p>
+            </div>
+            <div class="k-card edge">
+                <span class="idx">18</span>
+                <h3>Deadline Violation (违约率)</h3>
+                <p>如果任务完成时间超过了用户要求的截止时间（Deadline），即视为违约。这是服务质量（QoS）的红线。</p>
+            </div>
+            <div class="k-card edge">
+                <span class="idx">19</span>
+                <h3>Throughput (吞吐量)</h3>
+                <p>单位时间内系统成功处理的任务数量。高吞吐量意味着系统处理能力强。</p>
+            </div>
+            <div class="k-card edge">
+                <span class="idx">20</span>
+                <h3>Bandwidth (带宽)</h3>
+                <p>网络传输能力的瓶颈。如果带宽低（如 10Mbps），传输延迟就会很高，此时 Agent 倾向于本地处理。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. 算法深度剖析 -->
+    <section id="algo-details">
+        <div class="section-header">
+            <h2>⚙️ 第三章：MAPPO 与核心算法 (21-30)</h2>
+            <span></span>
+        </div>
+        <div class="mermaid-box">
+            <h3>CTDE 架构核心图解</h3>
+            <div class="mermaid">
+                graph LR
+                subgraph Train [训练阶段 (中心化)]
+                    S[全局状态 (140维)] --> Critic
+                    Critic -->|Value| Loss
+                    O[局部观测 (14维)] --> Actor
+                end
+                subgraph Exec [执行阶段 (去中心化)]
+                    O2[局部观测] --> Actor2[Actor]
+                    Actor2 -->|Action| Env
+                end
+                style Critic fill:#f9d5e5
+                style Actor fill:#e0f7fa
+                style Actor2 fill:#e0f7fa
+            </div>
+        </div>
+        <div class="grid-4">
+            <div class="k-card algo">
+                <span class="idx">21</span>
+                <h3>CTDE (中心化训练 去中心化执行)</h3>
+                <p>MARL 的黄金法则。训练时可以利用全局信息来优化策略，但部署时每个 Agent 必须能独立依靠局部信息行动。</p>
+            </div>
+            <div class="k-card algo">
+                <span class="idx">22</span>
+                <h3>Parameter Sharing (参数共享)</h3>
+                <p>本项目中所有 10 个 Agent 共享同一个神经网络参数。这大大减少了模型大小，并加速了协作行为的学习。</p>
+            </div>
+            <div class="k-card algo">
+                <span class="idx">23</span>
+                <h3>Value Normalization (价值归一化)</h3>
+                <p>MAPPO 的关键技巧。对 Critic 预测的 Value 进行归一化处理，防止因奖励数值波动过大导致训练崩溃。</p>
+            </div>
+            <div class="k-card algo">
+                <span class="idx">24</span>
+                <h3>On-Policy (在线策略)</h3>
+                <p>MAPPO 的特性。Agent 必须用自己当前最新的策略产生的数据来学习。优点是稳定，缺点是样本效率低。</p>
+            </div>
+            <div class="k-card algo">
+                <span class="idx">25</span>
+                <h3>PPO Clip (裁剪机制)</h3>
+                <p>限制每次策略更新的幅度（0.2）。防止 Agent “步子迈太大扯着蛋”，保证了学习的单调提升。</p>
+            </div>
+            <div class="k-card algo">
+                <span class="idx">26</span>
+                <h3>GAE (广义优势估计)</h3>
+                <p>一种计算 Advantage 的技术。平衡了偏差（Bias）和方差（Variance），让 Critic 的指导更准确。</p>
+            </div>
+            <div class="k-card algo">
+                <span class="idx">27</span>
+                <h3>Actor-Critic</h3>
+                <p>算法架构。Actor 负责“做动作”，Critic 负责“打分”。两人互怼互助，共同进步。</p>
+            </div>
+            <div class="k-card algo">
+                <span class="idx">28</span>
+                <h3>Entropy Bonus (熵正则化)</h3>
+                <p>在 Loss 中加入熵项，鼓励 Agent 保持策略的随机性。防止它过早收敛到某种错误的“死板”策略。</p>
+            </div>
+            <div class="k-card algo">
+                <span class="idx">29</span>
+                <h3>MADDPG</h3>
+                <p>对比算法。基于 DDPG 的 Off-policy 算法。虽然理论上样本效率高，但在复杂调度环境中极其不稳定。</p>
+            </div>
+            <div class="k-card algo">
+                <span class="idx">30</span>
+                <h3>IPPO (独立 PPO)</h3>
+                <p>基准算法。完全把其他 Agent 当作环境噪声。在协作要求高的场景下（如本项目），效果远不如 MAPPO。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. 实验参数与Q&A -->
+    <section id="exp-setup">
+        <div class="section-header">
+            <h2>🧪 第四章：实验参数与细节 (31-40)</h2>
+            <span></span>
+        </div>
+        <div class="grid-4">
+            <div class="k-card exp">
+                <span class="idx">31</span>
+                <h3>Network Structure (网络结构)</h3>
+                <p>MLP (多层感知机)。输入层 14 -> 隐藏层 64 -> 隐藏层 64 -> 输出层 10。轻量级设计，适合边缘设备。</p>
+            </div>
+            <div class="k-card exp">
+                <span class="idx">32</span>
+                <h3>Hyperparameters (超参数)</h3>
+                <p>学习率 lr=5e-4，Batch Size=128，训练步数=500万步。这些都是经过精心调优的经验值。</p>
+            </div>
+            <div class="k-card exp">
+                <span class="idx">33</span>
+                <h3>Random Seed (随机种子)</h3>
+                <p>使用了 5 个不同的种子 (0-4) 进行重复实验。这是为了证明算法的提升不是运气的偶然，而是稳定的性能。</p>
+            </div>
+            <div class="k-card exp">
+                <span class="idx">34</span>
+                <h3>Observation Shape (14维)</h3>
+                <p>[1个自身负载, 1个自身队列, 3个任务属性, 9个邻居负载]。非常紧凑的输入向量。</p>
+            </div>
+            <div class="k-card exp">
+                <span class="idx">35</span>
+                <h3>Global State Shape (140维)</h3>
+                <p>简单的将所有 10 个 Agent 的 14 维观测拼接在一起。14 × 10 = 140。这就是 Critic 看到的全局图景。</p>
+            </div>
+            <div class="k-card exp">
+                <span class="idx">36</span>
+                <h3>Activation Function (激活函数)</h3>
+                <p>ReLU (修正线性单元)。在隐藏层使用，增加了网络的非线性拟合能力，计算开销极小。</p>
+            </div>
+            <div class="k-card exp">
+                <span class="idx">37</span>
+                <h3>Optimizer (优化器)</h3>
+                <p>Adam。自适应矩估计优化器。目前深度学习中最流行的优化算法，收敛快且无需精细调节学习率。</p>
+            </div>
+            <div class="k-card exp">
+                <span class="idx">38</span>
+                <h3>Softmax</h3>
+                <p>Actor 输出层的激活函数。将神经网络输出的数值转化为概率分布（所有动作概率之和为1）。</p>
+            </div>
+            <div class="k-card exp">
+                <span class="idx">39</span>
+                <h3>Metric: P99 Latency</h3>
+                <p>99% 分位延迟。表示“最慢的那 1% 任务”有多慢。衡量系统的稳定性底线，比平均值更重要。</p>
+            </div>
+            <div class="k-card exp">
+                <span class="idx">40</span>
+                <h3>Ablation Study (消融实验)</h3>
+                <p>通过去掉算法的某一部分（如去掉 CTDE）来看性能下降多少，以此证明该部分的必要性。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. 答辩 Q&A -->
+    <section id="defense">
+        <div class="section-header">
+            <h2>🛡️ 第五章：答辩 Q&A 模拟</h2>
+            <span></span>
+        </div>
+        
+        <div class="qa-item">
+            <div class="qa-question" onclick="this.parentElement.classList.toggle('active')">
+                Q: 为什么你的网络这么简单（只有几层）？这也能叫 AI 吗？
+            </div>
+            <div class="qa-answer">
+                <p><strong>A:</strong> 正是因为它简单，才适合边缘计算场景！</p>
+                <ol>
+                    <li><strong>场景约束：</strong> 边缘设备资源受限，不能运行大模型。简单的 MLP 保证了毫秒级的推理速度。</li>
+                    <li><strong>定义符合：</strong> AI Agent 的定义在于感知-决策-反馈的闭环，而不在于网络层数。我的模型完美实现了这一闭环。</li>
+                    <li><strong>效果导向：</strong> 实验证明，这个轻量级网络配合 MAPPO 算法，已经能超越贪心算法和传统 DDPG，证明了“小网络也有大智慧”。</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="qa-item">
+            <div class="qa-question" onclick="this.parentElement.classList.toggle('active')">
+                Q: 你的模型泛化能力怎么样？如果节点数从 10 变成 20 怎么办？
+            </div>
+            <div class="qa-answer">
+                <p><strong>A:</strong> 目前的模型是针对固定 10 节点训练的。</p>
+                <p>如果要扩展到 20 节点，因为我使用了<strong>参数共享 (Parameter Sharing)</strong>，Actor 的网络结构主体不需要变，只需要调整输入层（观测邻居数量）和输出层（动作空间）维度，然后进行微调（Fine-tuning）即可。这比为每个节点单独训练模型要快得多。</p>
+            </div>
+        </div>
+
+        <div class="qa-item">
+            <div class="qa-question" onclick="this.parentElement.classList.toggle('active')">
+                Q: 为什么 MAPPO 效果比 MADDPG 好？
+            </div>
+            <div class="qa-answer">
+                <p><strong>A:</strong> 主要有两个原因：</p>
+                <ol>
+                    <li><strong>稳定性：</strong> MADDPG 是 Off-policy 的，对超参数极度敏感，容易训练发散。而 MAPPO 是 On-policy，每步更新都很稳健。</li>
+                    <li><strong>价值归一化：</strong> 边缘环境的奖励值（延迟、能耗）波动很大，MADDPG 的 Critic 很难拟合这种剧烈波动，而 MAPPO 自带的 Value Normalization 完美解决了这个问题。</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="qa-item">
+            <div class="qa-question" onclick="this.parentElement.classList.toggle('active')">
+                Q: 你是如何处理延迟和能耗的权衡的？
+            </div>
+            <div class="qa-answer">
+                <p><strong>A:</strong> 通过奖励函数中的权重设计。公式是 R = -(α·延迟 + β·能耗)。我在实验中设定 α=0.5, β=0.3，这意味着系统稍微更偏向于低延迟，但也兼顾能耗。这个权重可以根据实际业务需求（比如是“省电模式”还是“性能模式”）灵活调整。</p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>MARL 边缘调度项目全景知识库 | Generated for Project Analysis</p>
+        <p>2024 &copy; Project Analysis Tool</p>
+    </footer>
+
+</div>
+
+<script>
+    mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+
+    // Simulation Logic (Simplified for this view)
+    const canvas = document.getElementById('simCanvas');
+    const ctx = canvas.getContext('2d');
+    const tooltip = document.getElementById('tooltip');
+    const NUM_NODES = 10;
+    let nodes = [];
+    let tasks = [];
+    let selectedNodeId = null;
+    let stats = { lat: 0, eng: 0, count: 0 };
+
+    function initSim() {
+        nodes = []; tasks = []; stats = { lat: 0, eng: 0, count: 0 };
+        for(let i=0; i<NUM_NODES; i++) {
+            const angle = (i/NUM_NODES) * Math.PI*2;
+            nodes.push({
+                id: i,
+                x: 400 + Math.cos(angle)*180,
+                y: 250 + Math.sin(angle)*180,
+                cpu: 1.0 + (i/NUM_NODES)*2.0,
+                load: Math.random()*0.3,
+                queue: 0
+            });
+        }
+        loop();
+    }
+
+    function loop() {
+        ctx.clearRect(0,0,800,500);
+        
+        // Generate Task
+        if(Math.random()<0.05) {
+            const src = Math.floor(Math.random()*NUM_NODES);
+            // Greedy logic for demo
+            let bestDst = src; let minScore = 1000;
+            nodes.forEach(n => {
+                let score = n.load + (n.id===src?0:0.2) - n.cpu*0.1;
+                if(score < minScore) { minScore=score; bestDst=n.id; }
+            });
+            tasks.push({ x:nodes[src].x, y:nodes[src].y, tx:nodes[bestDst].x, ty:nodes[bestDst].y, done:false, dst:bestDst });
+        }
+
+        // Draw Connections
+        ctx.strokeStyle = '#eee'; ctx.beginPath();
+        for(let i=0; i<NUM_NODES; i++) for(let j=i+1; j<NUM_NODES; j++) { ctx.moveTo(nodes[i].x, nodes[i].y); ctx.lineTo(nodes[j].x, nodes[j].y); }
+        ctx.stroke();
+
+        // Draw Nodes
+        nodes.forEach(n => {
+            n.load = Math.max(0, n.load - 0.003);
+            const r = 15 + n.cpu*4;
+            const hue = 120 - n.load*120;
+            ctx.fillStyle = `hsl(${hue}, 70%, 50%)`;
+            ctx.beginPath(); ctx.arc(n.x, n.y, r, 0, Math.PI*2); ctx.fill();
+            if(selectedNodeId === n.id) { ctx.strokeStyle='#333'; ctx.lineWidth=3; ctx.stroke(); }
+            
+            ctx.fillStyle='white'; ctx.font='12px Arial'; ctx.textAlign='center'; ctx.textBaseline='middle';
+            ctx.fillText('N'+n.id, n.x, n.y);
+        });
+
+        // Draw Tasks
+        tasks.forEach(t => {
+            if(t.done) return;
+            const dx = t.tx - t.x; const dy = t.ty - t.y;
+            const dist = Math.sqrt(dx*dx + dy*dy);
+            if(dist < 5) {
+                t.done = true;
+                nodes[t.dst].load = Math.min(1, nodes[t.dst].load+0.15);
+                nodes[t.dst].queue++;
+                setTimeout(()=>nodes[t.dst].queue--, 1000);
+                // Update stats
+                stats.count++;
+                stats.lat += (20 + Math.random()*10)/1000; // dummy
+                stats.eng += (nodes[t.dst].cpu * 0.5);
+                document.getElementById('stat-lat').innerText = (stats.lat*1000/stats.count).toFixed(1)+' ms';
+                document.getElementById('stat-eng').innerText = (stats.eng/stats.count).toFixed(2)+' J';
+            } else {
+                t.x += dx*0.05; t.y += dy*0.05;
+                ctx.fillStyle='#3498db'; ctx.beginPath(); ctx.arc(t.x, t.y, 4, 0, Math.PI*2); ctx.fill();
+            }
+        });
+
+        updatePanel();
+        requestAnimationFrame(loop);
+    }
+
+    function updatePanel() {
+        if(selectedNodeId !== null) {
+            const n = nodes[selectedNodeId];
+            document.getElementById('sel-id').innerText = 'N'+n.id;
+            document.getElementById('sel-cpu').innerText = n.cpu.toFixed(1);
+            document.getElementById('sel-load').innerText = (n.load*100).toFixed(0);
+            document.getElementById('sel-queue').innerText = n.queue;
+        }
+    }
+
+    canvas.addEventListener('click', e => {
+        const rect = canvas.getBoundingClientRect();
+        const x = e.clientX - rect.left; const y = e.clientY - rect.top;
+        nodes.forEach(n => {
+            const r = 20 + n.cpu*4;
+            if((x-n.x)**2 + (y-n.y)**2 < r*r) selectedNodeId = n.id;
+        });
+    });
+
+    // Nav interaction
+    const navLinks = document.querySelectorAll('nav a');
+    window.addEventListener('scroll', () => {
+        let current = '';
+        document.querySelectorAll('section').forEach(section => {
+            const sectionTop = section.offsetTop;
+            if(pageYOffset >= sectionTop - 150) current = section.getAttribute('id');
+        });
+        navLinks.forEach(a => {
+            a.classList.remove('active');
+            if(a.getAttribute('href').includes(current)) a.classList.add('active');
+        });
+    });
+
+    initSim();
+</script>
+
+</body>
+</html>
