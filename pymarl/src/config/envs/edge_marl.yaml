@@ -1,0 +1,30 @@
+env: edge_marl
+
+env_args:
+  n_nodes: 10
+  node_cpu_capacity: [1.0e9, 1.2e9, 1.4e9, 1.6e9, 1.8e9, 2.0e9, 2.2e9, 2.4e9, 2.6e9, 3.0e9]
+  task_arrival_rate: 10.0
+  task_arrival_rate_range: [5.0, 15.0]
+  task_arrival_mode: cyclic
+  task_arrival_cycle_seconds: 20.0
+  task_workload_range: [1.0, 10.0]
+  task_data_range: [0.5, 5.0]
+  task_deadline_range: [0.05, 0.5]
+  network_bw_range: [10.0, 100.0]
+  network_latency_range: [0.002, 0.01]
+  reward_weights: {alpha: 0.5, beta: 0.3, gamma: 0.2}
+  min_time_step: 0.02
+  max_time_step: 0.2
+  initial_observation_window: 0.1
+  action_mode: discrete
+
+test_greedy: True
+test_nepisode: 10
+test_interval: 50000
+log_interval: 5000
+runner_log_interval: 5000
+learner_log_interval: 5000
+t_max: 5000000
+batch_size_run: 1
+gamma: 0.99
+

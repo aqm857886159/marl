@@ -1,0 +1,1315 @@
+[
+  {
+    "step": 1000,
+    "avg_latency_ms": 3408.806853635767,
+    "avg_energy_J": 7.657581156939081,
+    "throughput_tps": 311.8293112753615,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4511.486179254323
+    }
+  },
+  {
+    "step": 51000,
+    "avg_latency_ms": 3889.1010850403313,
+    "avg_energy_J": 8.738443785492363,
+    "throughput_tps": 228.302713390443,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4513.052644790712
+    }
+  },
+  {
+    "step": 101000,
+    "avg_latency_ms": 3549.971871336196,
+    "avg_energy_J": 7.975084797706269,
+    "throughput_tps": 310.4721795764074,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4518.530120858667
+    }
+  },
+  {
+    "step": 151000,
+    "avg_latency_ms": 5640.273956788225,
+    "avg_energy_J": 5.854915352722577,
+    "throughput_tps": 290.76099463066987,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4826.685448797239
+    }
+  },
+  {
+    "step": 201000,
+    "avg_latency_ms": 6534.007407433154,
+    "avg_energy_J": 5.503531948355447,
+    "throughput_tps": 164.58817316437762,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5019.293397231888
+    }
+  },
+  {
+    "step": 251000,
+    "avg_latency_ms": 7516.850558522041,
+    "avg_energy_J": 5.365315072442302,
+    "throughput_tps": 218.77031656760056,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5145.019261610078
+    }
+  },
+  {
+    "step": 301000,
+    "avg_latency_ms": 6001.329898121703,
+    "avg_energy_J": 5.9331230182454355,
+    "throughput_tps": 177.53427538353225,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4928.661374032417
+    }
+  },
+  {
+    "step": 351000,
+    "avg_latency_ms": 8842.628794400323,
+    "avg_energy_J": 3.9640562801279406,
+    "throughput_tps": 242.0714043157568,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5547.359406871769
+    }
+  },
+  {
+    "step": 401000,
+    "avg_latency_ms": 6613.258930273829,
+    "avg_energy_J": 5.1235222791171955,
+    "throughput_tps": 396.5090344179228,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5067.855085061545
+    }
+  },
+  {
+    "step": 451000,
+    "avg_latency_ms": 6231.469353564922,
+    "avg_energy_J": 5.857480394894571,
+    "throughput_tps": 293.468553040114,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4882.201485443354
+    }
+  },
+  {
+    "step": 501000,
+    "avg_latency_ms": 6885.036635937012,
+    "avg_energy_J": 5.369545913767228,
+    "throughput_tps": 180.97833176003365,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5004.70529992318
+    }
+  },
+  {
+    "step": 551000,
+    "avg_latency_ms": 9175.213883220935,
+    "avg_energy_J": 3.979829770806114,
+    "throughput_tps": 289.9168709636117,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5615.523605574113
+    }
+  },
+  {
+    "step": 601000,
+    "avg_latency_ms": 7203.995742073139,
+    "avg_energy_J": 4.498856130949447,
+    "throughput_tps": 209.20825887212004,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5197.247841702855
+    }
+  },
+  {
+    "step": 651000,
+    "avg_latency_ms": 5846.719883479442,
+    "avg_energy_J": 6.248379586657564,
+    "throughput_tps": 175.3036795092485,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4827.434539813146
+    }
+  },
+  {
+    "step": 701000,
+    "avg_latency_ms": 6195.926284744556,
+    "avg_energy_J": 5.146308851711067,
+    "throughput_tps": 217.22700010576796,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5063.288156741929
+    }
+  },
+  {
+    "step": 751000,
+    "avg_latency_ms": 8736.698164647165,
+    "avg_energy_J": 3.474963564185193,
+    "throughput_tps": 285.8212481023361,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5663.872257658114
+    }
+  },
+  {
+    "step": 801000,
+    "avg_latency_ms": 5679.063511339849,
+    "avg_energy_J": 5.565134879071341,
+    "throughput_tps": 285.7147227335443,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4849.870601970555
+    }
+  },
+  {
+    "step": 851000,
+    "avg_latency_ms": 5877.75706612768,
+    "avg_energy_J": 5.327560628676015,
+    "throughput_tps": 196.92248300362925,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4957.8677214334375
+    }
+  },
+  {
+    "step": 901000,
+    "avg_latency_ms": 5810.657580536762,
+    "avg_energy_J": 5.4162511618378035,
+    "throughput_tps": 288.55790215544624,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4949.18788070994
+    }
+  },
+  {
+    "step": 951000,
+    "avg_latency_ms": 6878.295161647805,
+    "avg_energy_J": 4.2895004248745945,
+    "throughput_tps": 209.06221467126284,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5343.555477692307
+    }
+  },
+  {
+    "step": 1001000,
+    "avg_latency_ms": 5995.793516212891,
+    "avg_energy_J": 6.280459213535147,
+    "throughput_tps": 195.83620372733716,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4927.471927822907
+    }
+  },
+  {
+    "step": 1051000,
+    "avg_latency_ms": 5975.248383860654,
+    "avg_energy_J": 5.6176701342208455,
+    "throughput_tps": 247.2077377190846,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4840.790046308683
+    }
+  },
+  {
+    "step": 1101000,
+    "avg_latency_ms": 4819.107207192511,
+    "avg_energy_J": 7.183411835781216,
+    "throughput_tps": 233.76524662652997,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4486.896149029769
+    }
+  },
+  {
+    "step": 1151000,
+    "avg_latency_ms": 6381.1196589435785,
+    "avg_energy_J": 5.150675296514096,
+    "throughput_tps": 256.37445017224934,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5101.013026937213
+    }
+  },
+  {
+    "step": 1201000,
+    "avg_latency_ms": 7100.982107301757,
+    "avg_energy_J": 6.07749635603562,
+    "throughput_tps": 251.2237323162346,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5107.794291852842
+    }
+  },
+  {
+    "step": 1251000,
+    "avg_latency_ms": 7058.841193075973,
+    "avg_energy_J": 5.553070677216376,
+    "throughput_tps": 268.52291658147374,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5027.398730350686
+    }
+  },
+  {
+    "step": 1301000,
+    "avg_latency_ms": 7592.488424613626,
+    "avg_energy_J": 4.822135252526913,
+    "throughput_tps": 187.07603225349925,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5304.552609182731
+    }
+  },
+  {
+    "step": 1351000,
+    "avg_latency_ms": 5272.116572187995,
+    "avg_energy_J": 6.049690595946289,
+    "throughput_tps": 159.19483754236578,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4947.304828058172
+    }
+  },
+  {
+    "step": 1401000,
+    "avg_latency_ms": 5296.031758525397,
+    "avg_energy_J": 6.552381318801484,
+    "throughput_tps": 208.19598529999794,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4686.706358035986
+    }
+  },
+  {
+    "step": 1451000,
+    "avg_latency_ms": 5968.874738524142,
+    "avg_energy_J": 5.375149425897847,
+    "throughput_tps": 281.01310655422736,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4876.640153321112
+    }
+  },
+  {
+    "step": 1501000,
+    "avg_latency_ms": 4887.147227194116,
+    "avg_energy_J": 6.282436098629745,
+    "throughput_tps": 178.91807004198796,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4706.976429314034
+    }
+  },
+  {
+    "step": 1551000,
+    "avg_latency_ms": 6505.1928405104345,
+    "avg_energy_J": 6.447073774002305,
+    "throughput_tps": 278.0838550904656,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5032.361463742681
+    }
+  },
+  {
+    "step": 1601000,
+    "avg_latency_ms": 5789.282364259649,
+    "avg_energy_J": 5.493103514226031,
+    "throughput_tps": 214.078701692722,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4879.001885293676
+    }
+  },
+  {
+    "step": 1651000,
+    "avg_latency_ms": 5910.387900153508,
+    "avg_energy_J": 5.616380943315363,
+    "throughput_tps": 260.520709395645,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4819.7384885754
+    }
+  },
+  {
+    "step": 1701000,
+    "avg_latency_ms": 6559.892152594599,
+    "avg_energy_J": 5.618467136135185,
+    "throughput_tps": 201.6082137363056,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5042.052813666943
+    }
+  },
+  {
+    "step": 1751000,
+    "avg_latency_ms": 4969.167570966028,
+    "avg_energy_J": 5.852774295669677,
+    "throughput_tps": 189.46856899892788,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4529.208193833105
+    }
+  },
+  {
+    "step": 1801000,
+    "avg_latency_ms": 5518.364798506737,
+    "avg_energy_J": 5.3490702590032795,
+    "throughput_tps": 254.1656316457911,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4842.865777362692
+    }
+  },
+  {
+    "step": 1851000,
+    "avg_latency_ms": 5674.284596133055,
+    "avg_energy_J": 5.349153879705129,
+    "throughput_tps": 240.98643935151432,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4974.849724728036
+    }
+  },
+  {
+    "step": 1901000,
+    "avg_latency_ms": 5791.48325869386,
+    "avg_energy_J": 5.39691982708188,
+    "throughput_tps": 223.15250133991634,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4837.362323170355
+    }
+  },
+  {
+    "step": 1951000,
+    "avg_latency_ms": 7270.008985619245,
+    "avg_energy_J": 4.200634734439085,
+    "throughput_tps": 294.6210695297888,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5213.212851503663
+    }
+  },
+  {
+    "step": 2001000,
+    "avg_latency_ms": 5455.23702644159,
+    "avg_energy_J": 6.029533218977775,
+    "throughput_tps": 170.71978058391701,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4679.842402500685
+    }
+  },
+  {
+    "step": 2051000,
+    "avg_latency_ms": 6628.786524973511,
+    "avg_energy_J": 4.6108208947351415,
+    "throughput_tps": 229.353897702617,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4967.774988230507
+    }
+  },
+  {
+    "step": 2101000,
+    "avg_latency_ms": 4942.7143645603455,
+    "avg_energy_J": 5.416445933209123,
+    "throughput_tps": 238.25303331462374,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4619.037503025292
+    }
+  },
+  {
+    "step": 2151000,
+    "avg_latency_ms": 6009.414999138842,
+    "avg_energy_J": 5.571647350212567,
+    "throughput_tps": 275.4095564363152,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4931.610653337133
+    }
+  },
+  {
+    "step": 2201000,
+    "avg_latency_ms": 5491.799573330117,
+    "avg_energy_J": 6.176048706693296,
+    "throughput_tps": 312.8368541351984,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4675.080840933872
+    }
+  },
+  {
+    "step": 2251000,
+    "avg_latency_ms": 5979.5088409029195,
+    "avg_energy_J": 5.906487366500542,
+    "throughput_tps": 203.8823208242883,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4740.164682320925
+    }
+  },
+  {
+    "step": 2301000,
+    "avg_latency_ms": 6358.646822479581,
+    "avg_energy_J": 4.821872141316295,
+    "throughput_tps": 210.1747662497224,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4905.302386477432
+    }
+  },
+  {
+    "step": 2351000,
+    "avg_latency_ms": 6702.550403813361,
+    "avg_energy_J": 4.468322961167143,
+    "throughput_tps": 294.46605731994424,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5115.212280648647
+    }
+  },
+  {
+    "step": 2401000,
+    "avg_latency_ms": 7450.718586199958,
+    "avg_energy_J": 4.621004526426245,
+    "throughput_tps": 235.07360819856726,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5253.189967009994
+    }
+  },
+  {
+    "step": 2451000,
+    "avg_latency_ms": 6404.25463086341,
+    "avg_energy_J": 3.9902345058836475,
+    "throughput_tps": 279.82439583417465,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5191.167795213175
+    }
+  },
+  {
+    "step": 2501000,
+    "avg_latency_ms": 6708.151721479114,
+    "avg_energy_J": 5.919880707344734,
+    "throughput_tps": 226.48372780332753,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4796.7810126746335
+    }
+  },
+  {
+    "step": 2551000,
+    "avg_latency_ms": 5633.823570125883,
+    "avg_energy_J": 5.5120360105672255,
+    "throughput_tps": 273.4989117352503,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4761.906361052147
+    }
+  },
+  {
+    "step": 2601000,
+    "avg_latency_ms": 7203.492992293934,
+    "avg_energy_J": 4.464683168941029,
+    "throughput_tps": 285.3104700285545,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5219.037247139497
+    }
+  },
+  {
+    "step": 2651000,
+    "avg_latency_ms": 6741.247271769472,
+    "avg_energy_J": 4.589308902060335,
+    "throughput_tps": 308.48489441803565,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5098.077160578012
+    }
+  },
+  {
+    "step": 2701000,
+    "avg_latency_ms": 6449.015335575374,
+    "avg_energy_J": 4.762308588869328,
+    "throughput_tps": 222.8493983245299,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5001.998423844865
+    }
+  },
+  {
+    "step": 2751000,
+    "avg_latency_ms": 6555.610980270125,
+    "avg_energy_J": 5.444801007421006,
+    "throughput_tps": 340.9910624203825,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4848.384148396346
+    }
+  },
+  {
+    "step": 2801000,
+    "avg_latency_ms": 5758.394737129608,
+    "avg_energy_J": 5.385827109918803,
+    "throughput_tps": 271.0507395363064,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4759.342411586023
+    }
+  },
+  {
+    "step": 2851000,
+    "avg_latency_ms": 6877.776766634144,
+    "avg_energy_J": 4.2402784184468905,
+    "throughput_tps": 400.0045368078659,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5218.74497047952
+    }
+  },
+  {
+    "step": 2901000,
+    "avg_latency_ms": 5648.189252371989,
+    "avg_energy_J": 4.950159865936891,
+    "throughput_tps": 243.01014039915063,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4848.096141521064
+    }
+  },
+  {
+    "step": 2951000,
+    "avg_latency_ms": 7170.821509201573,
+    "avg_energy_J": 4.859830290106162,
+    "throughput_tps": 243.8633729443906,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5194.365407108974
+    }
+  },
+  {
+    "step": 3001000,
+    "avg_latency_ms": 6785.370278778445,
+    "avg_energy_J": 4.141007490403139,
+    "throughput_tps": 244.94970800606492,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5170.770001923743
+    }
+  },
+  {
+    "step": 3051000,
+    "avg_latency_ms": 7653.555872931507,
+    "avg_energy_J": 4.315716687422886,
+    "throughput_tps": 196.29644304571354,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5257.104706977494
+    }
+  },
+  {
+    "step": 3101000,
+    "avg_latency_ms": 7590.86893763604,
+    "avg_energy_J": 4.9577855705637495,
+    "throughput_tps": 292.0763366647649,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5193.920630904239
+    }
+  },
+  {
+    "step": 3151000,
+    "avg_latency_ms": 6757.462069605257,
+    "avg_energy_J": 6.021302283636151,
+    "throughput_tps": 265.9606475524005,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4925.057161990317
+    }
+  },
+  {
+    "step": 3201000,
+    "avg_latency_ms": 6734.116878861272,
+    "avg_energy_J": 5.124646133922067,
+    "throughput_tps": 240.94474422526383,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4914.133899934464
+    }
+  },
+  {
+    "step": 3251000,
+    "avg_latency_ms": 6742.538567614452,
+    "avg_energy_J": 4.42772335916061,
+    "throughput_tps": 274.2884931208606,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5128.462817677467
+    }
+  },
+  {
+    "step": 3301000,
+    "avg_latency_ms": 6119.222241974261,
+    "avg_energy_J": 5.011744459845545,
+    "throughput_tps": 156.85262924436762,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5035.738977006078
+    }
+  },
+  {
+    "step": 3351000,
+    "avg_latency_ms": 7255.495260785341,
+    "avg_energy_J": 4.692965307040145,
+    "throughput_tps": 326.9562121169546,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5134.833446080247
+    }
+  },
+  {
+    "step": 3401000,
+    "avg_latency_ms": 7013.812388688282,
+    "avg_energy_J": 4.614307906896359,
+    "throughput_tps": 252.46349888516107,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5013.2012109430425
+    }
+  },
+  {
+    "step": 3451000,
+    "avg_latency_ms": 6817.883497902347,
+    "avg_energy_J": 4.379505885085484,
+    "throughput_tps": 272.6730111086255,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5030.992870884446
+    }
+  },
+  {
+    "step": 3501000,
+    "avg_latency_ms": 5966.99157565798,
+    "avg_energy_J": 5.471588476418301,
+    "throughput_tps": 339.62137768462236,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4837.801943582682
+    }
+  },
+  {
+    "step": 3551000,
+    "avg_latency_ms": 7262.854649504829,
+    "avg_energy_J": 5.032816777954285,
+    "throughput_tps": 317.76659213923233,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5087.822708563699
+    }
+  },
+  {
+    "step": 3601000,
+    "avg_latency_ms": 7694.844657473106,
+    "avg_energy_J": 3.8957310869124333,
+    "throughput_tps": 272.86356969266,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5498.159377524876
+    }
+  },
+  {
+    "step": 3651000,
+    "avg_latency_ms": 6035.145606584914,
+    "avg_energy_J": 4.6355435062479415,
+    "throughput_tps": 215.68448046153745,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4956.351771228692
+    }
+  },
+  {
+    "step": 3701000,
+    "avg_latency_ms": 7357.838911197969,
+    "avg_energy_J": 4.249233338780611,
+    "throughput_tps": 250.22311324007734,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5155.417923073617
+    }
+  },
+  {
+    "step": 3751000,
+    "avg_latency_ms": 6361.300289379427,
+    "avg_energy_J": 4.759083863708556,
+    "throughput_tps": 345.3250455907527,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5053.5840726147735
+    }
+  },
+  {
+    "step": 3801000,
+    "avg_latency_ms": 6771.537866624067,
+    "avg_energy_J": 4.6913185044602965,
+    "throughput_tps": 222.83177688749046,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5065.278470403925
+    }
+  },
+  {
+    "step": 3851000,
+    "avg_latency_ms": 7486.736878281202,
+    "avg_energy_J": 4.370444102156643,
+    "throughput_tps": 302.5104321573422,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5242.398386200199
+    }
+  },
+  {
+    "step": 3901000,
+    "avg_latency_ms": 9040.235415342515,
+    "avg_energy_J": 4.2470778924545405,
+    "throughput_tps": 289.37581361853415,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5617.963344930471
+    }
+  },
+  {
+    "step": 3951000,
+    "avg_latency_ms": 7641.047511612272,
+    "avg_energy_J": 4.4706464295913815,
+    "throughput_tps": 220.949230862692,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5330.6272692367365
+    }
+  },
+  {
+    "step": 4001000,
+    "avg_latency_ms": 7607.344081895176,
+    "avg_energy_J": 4.655872158107598,
+    "throughput_tps": 341.4868610171555,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5313.4398320631135
+    }
+  },
+  {
+    "step": 4051000,
+    "avg_latency_ms": 7160.233372751654,
+    "avg_energy_J": 3.513835309144377,
+    "throughput_tps": 308.96254521275677,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5449.135836926992
+    }
+  },
+  {
+    "step": 4101000,
+    "avg_latency_ms": 6889.465783758668,
+    "avg_energy_J": 4.509305909640759,
+    "throughput_tps": 182.2683064243002,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5026.852040908458
+    }
+  },
+  {
+    "step": 4151000,
+    "avg_latency_ms": 7085.178245193824,
+    "avg_energy_J": 4.879923850493983,
+    "throughput_tps": 231.80718330479917,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5005.737704507451
+    }
+  },
+  {
+    "step": 4201000,
+    "avg_latency_ms": 5940.0861574114915,
+    "avg_energy_J": 4.61699325362147,
+    "throughput_tps": 205.07754995843698,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5013.603353924178
+    }
+  },
+  {
+    "step": 4251000,
+    "avg_latency_ms": 7660.08065587736,
+    "avg_energy_J": 4.906819399062192,
+    "throughput_tps": 307.56487444084075,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5079.5907812327705
+    }
+  },
+  {
+    "step": 4301000,
+    "avg_latency_ms": 6880.4053767767355,
+    "avg_energy_J": 4.910251310990975,
+    "throughput_tps": 286.82255116161,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5089.750153373609
+    }
+  },
+  {
+    "step": 4351000,
+    "avg_latency_ms": 7712.704096738949,
+    "avg_energy_J": 3.716972718473708,
+    "throughput_tps": 227.14686043897987,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5353.50726774223
+    }
+  },
+  {
+    "step": 4401000,
+    "avg_latency_ms": 8621.049936725025,
+    "avg_energy_J": 4.0355408911031505,
+    "throughput_tps": 176.9817593476876,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5546.67350272896
+    }
+  },
+  {
+    "step": 4451000,
+    "avg_latency_ms": 7557.440723572139,
+    "avg_energy_J": 3.991811909874393,
+    "throughput_tps": 200.5766303455179,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5400.348463927488
+    }
+  },
+  {
+    "step": 4501000,
+    "avg_latency_ms": 5872.217257720102,
+    "avg_energy_J": 4.7291911930246995,
+    "throughput_tps": 244.63459050276597,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4929.256822616541
+    }
+  },
+  {
+    "step": 4551000,
+    "avg_latency_ms": 6227.273952235953,
+    "avg_energy_J": 4.752641845344492,
+    "throughput_tps": 208.76018988238806,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5004.980545797267
+    }
+  },
+  {
+    "step": 4601000,
+    "avg_latency_ms": 5739.918255418753,
+    "avg_energy_J": 5.393261977853778,
+    "throughput_tps": 291.1206513213725,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4894.115859050275
+    }
+  },
+  {
+    "step": 4651000,
+    "avg_latency_ms": 6901.677314714936,
+    "avg_energy_J": 5.0180642022764586,
+    "throughput_tps": 233.5154899745046,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5174.556750575705
+    }
+  },
+  {
+    "step": 4701000,
+    "avg_latency_ms": 7994.699800049324,
+    "avg_energy_J": 4.5851570415129475,
+    "throughput_tps": 290.538986422842,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5362.786086138559
+    }
+  },
+  {
+    "step": 4751000,
+    "avg_latency_ms": 5130.780155538513,
+    "avg_energy_J": 5.549750467420614,
+    "throughput_tps": 353.5201092927793,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4737.190113891193
+    }
+  },
+  {
+    "step": 4801000,
+    "avg_latency_ms": 6588.2030736468705,
+    "avg_energy_J": 4.820500791374708,
+    "throughput_tps": 190.45525652671057,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5116.666237273426
+    }
+  },
+  {
+    "step": 4851000,
+    "avg_latency_ms": 5742.267043370482,
+    "avg_energy_J": 6.902009855839016,
+    "throughput_tps": 223.41718663584388,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4787.725850832504
+    }
+  },
+  {
+    "step": 4901000,
+    "avg_latency_ms": 6035.6395692991955,
+    "avg_energy_J": 4.743431596446333,
+    "throughput_tps": 187.7604472228336,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5128.509015065441
+    }
+  },
+  {
+    "step": 4951000,
+    "avg_latency_ms": 5611.036125254348,
+    "avg_energy_J": 5.631193943812405,
+    "throughput_tps": 195.0435113445046,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4747.995026173787
+    }
+  },
+  {
+    "step": 5001000,
+    "avg_latency_ms": 5066.8638689327645,
+    "avg_energy_J": 6.346719003952119,
+    "throughput_tps": 347.2072359411756,
+    "load_balance_jain": 1.0000000000000002,
+    "deadline_violation_rate": 1.0,
+    "return": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4730.98422328687
+    }
+  }
+]

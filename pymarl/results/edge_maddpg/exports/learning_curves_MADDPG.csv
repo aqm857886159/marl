@@ -1,0 +1,2 @@
+algorithm,seed,timestep,episode_return_mean
+MADDPG,0,1000,-5975.512910064977

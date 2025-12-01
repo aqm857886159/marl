@@ -1,0 +1,902 @@
+[
+  {
+    "avg_latency_ms": 24154.259765625,
+    "p99_latency_ms": 38131.433734374994,
+    "avg_energy_J": 3.815241289138794,
+    "throughput_tps": 215.6693115234375,
+    "deadline_violation_rate": 0.9996799826622009,
+    "load_balance_jain": 1.0,
+    "step": 50000
+  },
+  {
+    "avg_latency_ms": 12292.746484375,
+    "p99_latency_ms": 18790.1948671875,
+    "avg_energy_J": 6.342609310150147,
+    "throughput_tps": 215.30760498046874,
+    "deadline_violation_rate": 0.999940025806427,
+    "load_balance_jain": 1.0,
+    "step": 100000
+  },
+  {
+    "avg_latency_ms": 21311.662890625,
+    "p99_latency_ms": 31415.5580234375,
+    "avg_energy_J": 4.643335342407227,
+    "throughput_tps": 221.51727905273438,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 150000
+  },
+  {
+    "avg_latency_ms": 28544.893359375,
+    "p99_latency_ms": 40649.795960937496,
+    "avg_energy_J": 3.057075023651123,
+    "throughput_tps": 217.44471130371093,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 200000
+  },
+  {
+    "avg_latency_ms": 9730.9619140625,
+    "p99_latency_ms": 14693.646693359373,
+    "avg_energy_J": 6.305077075958252,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 0.9999400019645691,
+    "load_balance_jain": 1.0,
+    "step": 250000
+  },
+  {
+    "avg_latency_ms": 17339.128515625,
+    "p99_latency_ms": 26236.486921875,
+    "avg_energy_J": 5.605233764648437,
+    "throughput_tps": 216.45940856933595,
+    "deadline_violation_rate": 0.9999800086021423,
+    "load_balance_jain": 1.0,
+    "step": 300000
+  },
+  {
+    "avg_latency_ms": 12961.5015625,
+    "p99_latency_ms": 19484.098335937502,
+    "avg_energy_J": 4.9303765296936035,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 350000
+  },
+  {
+    "avg_latency_ms": 41811.42578125,
+    "p99_latency_ms": 56743.5176171875,
+    "avg_energy_J": 1.2721678733825683,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 400000
+  },
+  {
+    "avg_latency_ms": 41651.503125,
+    "p99_latency_ms": 56529.018742187494,
+    "avg_energy_J": 1.2721306562423706,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 450000
+  },
+  {
+    "avg_latency_ms": 41651.503125,
+    "p99_latency_ms": 56529.018742187494,
+    "avg_energy_J": 1.2721306562423706,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 500000
+  },
+  {
+    "avg_latency_ms": 41651.503125,
+    "p99_latency_ms": 56529.018742187494,
+    "avg_energy_J": 1.2721306562423706,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 550000
+  },
+  {
+    "avg_latency_ms": 41651.503125,
+    "p99_latency_ms": 56529.018742187494,
+    "avg_energy_J": 1.2721306562423706,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 600000
+  },
+  {
+    "avg_latency_ms": 41651.503125,
+    "p99_latency_ms": 56529.018742187494,
+    "avg_energy_J": 1.2721306562423706,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 650000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 700000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 750000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 800000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 850000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 900000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 950000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1000000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1050000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1100000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1150000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1200000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1250000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1300000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1350000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1400000
+  },
+  {
+    "avg_latency_ms": 38305.4625,
+    "p99_latency_ms": 52792.1575234375,
+    "avg_energy_J": 1.7405762910842895,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1450000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1500000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1550000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1600000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1650000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1700000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1750000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1800000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1850000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1900000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 1950000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2000000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2050000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2100000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2150000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2200000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2250000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2300000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2350000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2400000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2450000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2500000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2550000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2600000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2650000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2700000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2750000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2800000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2850000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2900000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 2950000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3000000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3050000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3100000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3150000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3200000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3250000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3300000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3350000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3400000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3450000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3500000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3550000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3600000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3650000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3700000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3750000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3800000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3850000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3900000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 3950000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4000000
+  },
+  {
+    "avg_latency_ms": 33347.63125,
+    "p99_latency_ms": 46341.4355859375,
+    "avg_energy_J": 2.236359453201294,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4050000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4100000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4150000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4200000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4250000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4300000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4350000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4400000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4450000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4500000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4550000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4600000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4650000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4700000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4750000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4800000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4850000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4900000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 4950000
+  },
+  {
+    "avg_latency_ms": 30002.490234375,
+    "p99_latency_ms": 42464.4226640625,
+    "avg_energy_J": 2.7046792984008787,
+    "throughput_tps": 216.43190002441406,
+    "deadline_violation_rate": 1.0,
+    "load_balance_jain": 1.0,
+    "step": 5000000
+  }
+]

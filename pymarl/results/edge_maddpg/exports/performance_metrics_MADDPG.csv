@@ -1,0 +1,7 @@
+algorithm,seed,metric,value
+MADDPG,0,avg_latency_ms,7556.703125
+MADDPG,0,p99_latency_ms,13945.159433593748
+MADDPG,0,avg_energy_J,6.657271862030029
+MADDPG,0,throughput_tps,217.57908630371094
+MADDPG,0,load_balance_jain,1.0
+MADDPG,0,deadline_violation_rate,0.9999000430107117
