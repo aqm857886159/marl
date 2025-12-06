@@ -1,0 +1,196 @@
+{
+  "avg_energy_J_mean": [
+    3.9535931685760133,
+    4.400329637660912,
+    5.295584431254599
+  ],
+  "avg_energy_J_mean_T": [
+    1000,
+    6000,
+    11000
+  ],
+  "avg_latency_ms_mean": [
+    5591.967772467886,
+    5647.228806615463,
+    5363.954329380699
+  ],
+  "avg_latency_ms_mean_T": [
+    1000,
+    6000,
+    11000
+  ],
+  "deadline_violation_rate_mean": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "deadline_violation_rate_mean_T": [
+    1000,
+    6000,
+    11000
+  ],
+  "ep_length_mean": [
+    1000.0,
+    1000.0,
+    1000.0
+  ],
+  "ep_length_mean_T": [
+    1000,
+    6000,
+    11000
+  ],
+  "episode": [
+    5,
+    10
+  ],
+  "episode_T": [
+    5000,
+    10000
+  ],
+  "episode_limit_mean": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "episode_limit_mean_T": [
+    1000,
+    6000,
+    11000
+  ],
+  "epsilon": [
+    1.0,
+    0.99525,
+    0.9905
+  ],
+  "epsilon_T": [
+    1000,
+    6000,
+    11000
+  ],
+  "load_balance_jain_mean": [
+    1.0000000000000002,
+    1.0000000000000002,
+    1.0000000000000002
+  ],
+  "load_balance_jain_mean_T": [
+    1000,
+    6000,
+    11000
+  ],
+  "return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4992.566323127549
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4985.205941154088
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4980.576104255129
+    }
+  ],
+  "return_mean_T": [
+    1000,
+    6000,
+    11000
+  ],
+  "return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 18.57040963381285
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 31.225450649309906
+    }
+  ],
+  "return_std_T": [
+    1000,
+    6000,
+    11000
+  ],
+  "test_avg_energy_J_mean": [
+    6.156645647144062
+  ],
+  "test_avg_energy_J_mean_T": [
+    1000
+  ],
+  "test_avg_latency_ms_mean": [
+    5371.624338153635
+  ],
+  "test_avg_latency_ms_mean_T": [
+    1000
+  ],
+  "test_deadline_violation_rate_mean": [
+    1.0
+  ],
+  "test_deadline_violation_rate_mean_T": [
+    1000
+  ],
+  "test_ep_length_mean": [
+    1000.0
+  ],
+  "test_ep_length_mean_T": [
+    1000
+  ],
+  "test_episode_limit_mean": [
+    1.0
+  ],
+  "test_episode_limit_mean_T": [
+    1000
+  ],
+  "test_load_balance_jain_mean": [
+    1.0000000000000002
+  ],
+  "test_load_balance_jain_mean_T": [
+    1000
+  ],
+  "test_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4591.2570327643725
+    }
+  ],
+  "test_return_mean_T": [
+    1000
+  ],
+  "test_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 16.01786867809168
+    }
+  ],
+  "test_return_std_T": [
+    1000
+  ],
+  "test_throughput_tps_mean": [
+    204.3848497314386
+  ],
+  "test_throughput_tps_mean_T": [
+    1000
+  ],
+  "throughput_tps_mean": [
+    318.56152814349736,
+    172.23539628179014,
+    232.49522702459527
+  ],
+  "throughput_tps_mean_T": [
+    1000,
+    6000,
+    11000
+  ]
+}

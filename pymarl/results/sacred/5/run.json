@@ -1,0 +1,114 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "C:\\Users\\23732\\Desktop\\MARL\u8fb9\u7f18\u8c03\u5ea6\u5b9e\u9a8c\\pymarl\\src",
+    "dependencies": [
+      "numpy==1.26.4",
+      "pyyaml==6.0.3",
+      "sacred==0.8.7",
+      "torch==2.4.1+cu121"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [
+      {
+        "commit": "260b8cfc9d39596a038325418b727fa4f73d3a7a",
+        "dirty": false,
+        "url": "https://github.com/aqm857886159/marl.git"
+      },
+      {
+        "commit": "260b8cfc9d39596a038325418b727fa4f73d3a7a",
+        "dirty": false,
+        "url": "https://github.com/aqm857886159/marl.git"
+      },
+      {
+        "commit": "260b8cfc9d39596a038325418b727fa4f73d3a7a",
+        "dirty": false,
+        "url": "https://github.com/aqm857886159/marl.git"
+      }
+    ],
+    "sources": [
+      [
+        "main.py",
+        "_sources\\main_d631a413c65497fadeab47680021f4e3.py"
+      ],
+      [
+        "run.py",
+        "_sources\\run_b0aaad29119fb7a2d25dd2f9c859d27e.py"
+      ],
+      [
+        "utils\\logging.py",
+        "_sources\\logging_a21c82d8525261657061a83f81fbd345.py"
+      ]
+    ]
+  },
+  "fail_trace": [
+    "Traceback (most recent call last):\n",
+    "  File \"C:\\Users\\23732\\anaconda3\\envs\\marl\\lib\\site-packages\\sacred\\config\\captured_function.py\", line 42, in captured_function\n    result = wrapped(*args, **kwargs)\n",
+    "  File \"C:\\Users\\23732\\Desktop\\MARL\u8fb9\u7f18\u8c03\u5ea6\u5b9e\u9a8c\\pymarl\\src\\main.py\", line 35, in my_main\n    run(_run, config, _log)\n",
+    "  File \"C:\\Users\\23732\\Desktop\\MARL\u8fb9\u7f18\u8c03\u5ea6\u5b9e\u9a8c\\pymarl\\src\\run.py\", line 51, in run\n    print(\"Exiting Main\")\n",
+    "OSError: [WinError 1] \u51fd\u6570\u4e0d\u6b63\u786e\u3002\n"
+  ],
+  "heartbeat": "2025-12-02T11:52:47.864449",
+  "host": {
+    "ENV": {},
+    "cpu": "13th Gen Intel(R) Core(TM) i9-13900H",
+    "gpus": {
+      "driver_version": "566.26",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 4060 Laptop GPU",
+          "persistence_mode": false,
+          "total_memory": 8188
+        }
+      ]
+    },
+    "hostname": "aqmthinkbook",
+    "os": [
+      "Windows",
+      "Windows-10-10.0.26100-SP0"
+    ],
+    "python_version": "3.10.19"
+  },
+  "meta": {
+    "command": "my_main",
+    "config_updates": {
+      "seed": 1
+    },
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "seed=1"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2025-12-01T08:38:59.112681",
+  "status": "FAILED",
+  "stop_time": "2025-12-02T11:52:49.143377"
+}

@@ -1,0 +1,8010 @@
+[
+  {
+    "step": 1000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4954.817178316722
+    }
+  },
+  {
+    "step": 6000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4990.195514643926
+    }
+  },
+  {
+    "step": 11000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4999.993515796695
+    }
+  },
+  {
+    "step": 16000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4985.380927627716
+    }
+  },
+  {
+    "step": 21000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4979.259902279101
+    }
+  },
+  {
+    "step": 26000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4971.077301893005
+    }
+  },
+  {
+    "step": 31000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4967.880206021671
+    }
+  },
+  {
+    "step": 36000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4975.150863664557
+    }
+  },
+  {
+    "step": 41000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4988.989473937307
+    }
+  },
+  {
+    "step": 46000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4990.272253448834
+    }
+  },
+  {
+    "step": 51000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4989.860368669022
+    }
+  },
+  {
+    "step": 56000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4971.602025143887
+    }
+  },
+  {
+    "step": 61000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4962.072093268938
+    }
+  },
+  {
+    "step": 66000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4990.694896742721
+    }
+  },
+  {
+    "step": 71000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4979.062328963721
+    }
+  },
+  {
+    "step": 76000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4983.346565415466
+    }
+  },
+  {
+    "step": 81000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4988.0299582253765
+    }
+  },
+  {
+    "step": 86000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4989.689268538683
+    }
+  },
+  {
+    "step": 91000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4998.59029729781
+    }
+  },
+  {
+    "step": 96000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4981.8356184629665
+    }
+  },
+  {
+    "step": 101000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4969.904465132813
+    }
+  },
+  {
+    "step": 106000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4989.66541070706
+    }
+  },
+  {
+    "step": 111000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4990.3736815787415
+    }
+  },
+  {
+    "step": 116000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4988.071869263251
+    }
+  },
+  {
+    "step": 121000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4988.429664827176
+    }
+  },
+  {
+    "step": 126000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5001.084374261192
+    }
+  },
+  {
+    "step": 131000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4987.687409582088
+    }
+  },
+  {
+    "step": 136000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5020.534561327016
+    }
+  },
+  {
+    "step": 141000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5007.536314474783
+    }
+  },
+  {
+    "step": 146000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4923.68395281497
+    }
+  },
+  {
+    "step": 151000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4939.050364659759
+    }
+  },
+  {
+    "step": 156000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5022.409080005866
+    }
+  },
+  {
+    "step": 161000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5099.40694202396
+    }
+  },
+  {
+    "step": 166000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5022.052741998841
+    }
+  },
+  {
+    "step": 171000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4902.572233951936
+    }
+  },
+  {
+    "step": 176000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4934.876252652538
+    }
+  },
+  {
+    "step": 181000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4940.3439893646355
+    }
+  },
+  {
+    "step": 186000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5002.7818095382145
+    }
+  },
+  {
+    "step": 191000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4974.338888854133
+    }
+  },
+  {
+    "step": 196000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5096.753864104267
+    }
+  },
+  {
+    "step": 201000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4977.664454581204
+    }
+  },
+  {
+    "step": 206000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4927.965717798059
+    }
+  },
+  {
+    "step": 211000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4954.018798438492
+    }
+  },
+  {
+    "step": 216000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4938.162494317536
+    }
+  },
+  {
+    "step": 221000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4949.826103128076
+    }
+  },
+  {
+    "step": 226000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4932.266117139418
+    }
+  },
+  {
+    "step": 231000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4948.557007427411
+    }
+  },
+  {
+    "step": 236000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4922.906757822312
+    }
+  },
+  {
+    "step": 241000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4936.3541314795
+    }
+  },
+  {
+    "step": 246000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4945.715679706
+    }
+  },
+  {
+    "step": 251000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4941.793296795311
+    }
+  },
+  {
+    "step": 256000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4960.119420653269
+    }
+  },
+  {
+    "step": 261000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4936.830889926037
+    }
+  },
+  {
+    "step": 266000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4951.4442862532405
+    }
+  },
+  {
+    "step": 271000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4957.01052167269
+    }
+  },
+  {
+    "step": 276000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4938.9656835933165
+    }
+  },
+  {
+    "step": 281000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4940.352116986449
+    }
+  },
+  {
+    "step": 286000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4926.46227339181
+    }
+  },
+  {
+    "step": 291000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4961.469152080317
+    }
+  },
+  {
+    "step": 296000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4990.36214302806
+    }
+  },
+  {
+    "step": 301000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4921.903948886182
+    }
+  },
+  {
+    "step": 306000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4940.064220840048
+    }
+  },
+  {
+    "step": 311000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4925.885474444513
+    }
+  },
+  {
+    "step": 316000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4956.091457412945
+    }
+  },
+  {
+    "step": 321000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4941.212354412916
+    }
+  },
+  {
+    "step": 326000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4932.202724182428
+    }
+  },
+  {
+    "step": 331000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4929.261841837261
+    }
+  },
+  {
+    "step": 336000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4945.046847613261
+    }
+  },
+  {
+    "step": 341000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4951.705907479527
+    }
+  },
+  {
+    "step": 346000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4928.799843187187
+    }
+  },
+  {
+    "step": 351000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4953.5078688147605
+    }
+  },
+  {
+    "step": 356000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4936.426657837092
+    }
+  },
+  {
+    "step": 361000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4921.341395223632
+    }
+  },
+  {
+    "step": 366000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4938.9319494217425
+    }
+  },
+  {
+    "step": 371000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4935.058551530494
+    }
+  },
+  {
+    "step": 376000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4951.415318998761
+    }
+  },
+  {
+    "step": 381000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4940.382516760072
+    }
+  },
+  {
+    "step": 386000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4968.596545580667
+    }
+  },
+  {
+    "step": 391000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4938.6750766395435
+    }
+  },
+  {
+    "step": 396000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5029.628353352438
+    }
+  },
+  {
+    "step": 401000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4896.1008707090805
+    }
+  },
+  {
+    "step": 406000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4972.336408710287
+    }
+  },
+  {
+    "step": 411000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4923.565400012567
+    }
+  },
+  {
+    "step": 416000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4936.510288698542
+    }
+  },
+  {
+    "step": 421000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4878.804638053183
+    }
+  },
+  {
+    "step": 426000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4940.2132518100025
+    }
+  },
+  {
+    "step": 431000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4885.54036144405
+    }
+  },
+  {
+    "step": 436000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4938.777331459003
+    }
+  },
+  {
+    "step": 441000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4944.292814676832
+    }
+  },
+  {
+    "step": 446000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4926.120067078509
+    }
+  },
+  {
+    "step": 451000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4936.1454665903775
+    }
+  },
+  {
+    "step": 456000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4917.694798174945
+    }
+  },
+  {
+    "step": 461000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4908.972411384128
+    }
+  },
+  {
+    "step": 466000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4949.852368829019
+    }
+  },
+  {
+    "step": 471000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4957.250254031569
+    }
+  },
+  {
+    "step": 476000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5026.574910521074
+    }
+  },
+  {
+    "step": 481000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4942.996747095949
+    }
+  },
+  {
+    "step": 486000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4959.616808617281
+    }
+  },
+  {
+    "step": 491000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4987.556718142038
+    }
+  },
+  {
+    "step": 496000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4977.413903761389
+    }
+  },
+  {
+    "step": 501000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4940.424807565853
+    }
+  },
+  {
+    "step": 506000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4910.727745403945
+    }
+  },
+  {
+    "step": 511000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4966.071632079737
+    }
+  },
+  {
+    "step": 516000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4950.037474771373
+    }
+  },
+  {
+    "step": 521000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4941.701727741285
+    }
+  },
+  {
+    "step": 526000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4935.901356728913
+    }
+  },
+  {
+    "step": 531000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4930.700425268994
+    }
+  },
+  {
+    "step": 536000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4906.468728530377
+    }
+  },
+  {
+    "step": 541000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4892.973738334929
+    }
+  },
+  {
+    "step": 546000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4939.758035836898
+    }
+  },
+  {
+    "step": 551000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4892.263012251351
+    }
+  },
+  {
+    "step": 556000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4951.4971727497195
+    }
+  },
+  {
+    "step": 561000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4930.811834580933
+    }
+  },
+  {
+    "step": 566000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4944.173227290629
+    }
+  },
+  {
+    "step": 571000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4930.1587798475175
+    }
+  },
+  {
+    "step": 576000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4967.535763339803
+    }
+  },
+  {
+    "step": 581000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4939.0256771245395
+    }
+  },
+  {
+    "step": 586000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4972.838637532954
+    }
+  },
+  {
+    "step": 591000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4983.863258652241
+    }
+  },
+  {
+    "step": 596000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4945.111329552967
+    }
+  },
+  {
+    "step": 601000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4970.618538266359
+    }
+  },
+  {
+    "step": 606000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4874.098769016846
+    }
+  },
+  {
+    "step": 611000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4885.060000012334
+    }
+  },
+  {
+    "step": 616000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4803.392247943751
+    }
+  },
+  {
+    "step": 621000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4945.879175126061
+    }
+  },
+  {
+    "step": 626000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4972.124508000592
+    }
+  },
+  {
+    "step": 631000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5007.126065968825
+    }
+  },
+  {
+    "step": 636000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4927.246530040146
+    }
+  },
+  {
+    "step": 641000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4915.383403091393
+    }
+  },
+  {
+    "step": 646000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4940.1852733051255
+    }
+  },
+  {
+    "step": 651000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4933.834787773465
+    }
+  },
+  {
+    "step": 656000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4969.932401910572
+    }
+  },
+  {
+    "step": 661000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4979.81738991325
+    }
+  },
+  {
+    "step": 666000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4953.774311924806
+    }
+  },
+  {
+    "step": 671000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4905.919413699643
+    }
+  },
+  {
+    "step": 676000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4891.123100614364
+    }
+  },
+  {
+    "step": 681000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4901.1882061852575
+    }
+  },
+  {
+    "step": 686000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4820.759164018103
+    }
+  },
+  {
+    "step": 691000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4872.620669024272
+    }
+  },
+  {
+    "step": 696000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4887.555061793835
+    }
+  },
+  {
+    "step": 701000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4931.6240479326825
+    }
+  },
+  {
+    "step": 706000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4938.751868252289
+    }
+  },
+  {
+    "step": 711000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4876.795584669055
+    }
+  },
+  {
+    "step": 716000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4846.105790973733
+    }
+  },
+  {
+    "step": 721000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4888.475217852576
+    }
+  },
+  {
+    "step": 726000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4873.978536379023
+    }
+  },
+  {
+    "step": 731000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4898.000707978308
+    }
+  },
+  {
+    "step": 736000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4732.149940744079
+    }
+  },
+  {
+    "step": 741000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4846.825331244139
+    }
+  },
+  {
+    "step": 746000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4712.315708958474
+    }
+  },
+  {
+    "step": 751000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4799.64958043193
+    }
+  },
+  {
+    "step": 756000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4839.081048736155
+    }
+  },
+  {
+    "step": 761000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4816.99719406474
+    }
+  },
+  {
+    "step": 766000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4797.439087555479
+    }
+  },
+  {
+    "step": 771000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4892.6756295987425
+    }
+  },
+  {
+    "step": 776000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4825.742121107965
+    }
+  },
+  {
+    "step": 781000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4898.154315101549
+    }
+  },
+  {
+    "step": 786000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4869.043023817396
+    }
+  },
+  {
+    "step": 791000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4914.445987035089
+    }
+  },
+  {
+    "step": 796000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4970.500854239401
+    }
+  },
+  {
+    "step": 801000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4984.560340851957
+    }
+  },
+  {
+    "step": 806000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4842.845118466843
+    }
+  },
+  {
+    "step": 811000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4906.880524734703
+    }
+  },
+  {
+    "step": 816000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4851.253379760856
+    }
+  },
+  {
+    "step": 821000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4928.778830662081
+    }
+  },
+  {
+    "step": 826000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4951.2194526744515
+    }
+  },
+  {
+    "step": 831000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4866.7640226108315
+    }
+  },
+  {
+    "step": 836000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4819.389180234864
+    }
+  },
+  {
+    "step": 841000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4863.194007263196
+    }
+  },
+  {
+    "step": 846000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4863.092219473685
+    }
+  },
+  {
+    "step": 851000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4883.989512651175
+    }
+  },
+  {
+    "step": 856000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4885.94740113069
+    }
+  },
+  {
+    "step": 861000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4895.652058447992
+    }
+  },
+  {
+    "step": 866000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4880.648462759035
+    }
+  },
+  {
+    "step": 871000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4889.9184933851
+    }
+  },
+  {
+    "step": 876000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4944.844267512238
+    }
+  },
+  {
+    "step": 881000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4843.552022850994
+    }
+  },
+  {
+    "step": 886000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4981.618854859523
+    }
+  },
+  {
+    "step": 891000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4923.86129063968
+    }
+  },
+  {
+    "step": 896000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4982.430089639669
+    }
+  },
+  {
+    "step": 901000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4880.405829891151
+    }
+  },
+  {
+    "step": 906000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4843.462336612547
+    }
+  },
+  {
+    "step": 911000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4937.247873524068
+    }
+  },
+  {
+    "step": 916000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4812.218602067211
+    }
+  },
+  {
+    "step": 921000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4764.946471423983
+    }
+  },
+  {
+    "step": 926000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4753.754237754189
+    }
+  },
+  {
+    "step": 931000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4806.701478318076
+    }
+  },
+  {
+    "step": 936000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4819.581307490126
+    }
+  },
+  {
+    "step": 941000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4880.934767280658
+    }
+  },
+  {
+    "step": 946000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4655.2333410154515
+    }
+  },
+  {
+    "step": 951000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4656.522446902329
+    }
+  },
+  {
+    "step": 956000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4803.959195152047
+    }
+  },
+  {
+    "step": 961000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4797.186778139045
+    }
+  },
+  {
+    "step": 966000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4858.572061980487
+    }
+  },
+  {
+    "step": 971000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4831.736969233932
+    }
+  },
+  {
+    "step": 976000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4755.686998838978
+    }
+  },
+  {
+    "step": 981000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4767.405037032079
+    }
+  },
+  {
+    "step": 986000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4733.450941015586
+    }
+  },
+  {
+    "step": 991000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4732.611868554865
+    }
+  },
+  {
+    "step": 996000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4645.9727585213
+    }
+  },
+  {
+    "step": 1001000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4706.013231654829
+    }
+  },
+  {
+    "step": 1006000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4809.684040540804
+    }
+  },
+  {
+    "step": 1011000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4635.363050317829
+    }
+  },
+  {
+    "step": 1016000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4711.330932197689
+    }
+  },
+  {
+    "step": 1021000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4762.554394094899
+    }
+  },
+  {
+    "step": 1026000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4793.169052407056
+    }
+  },
+  {
+    "step": 1031000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4662.241973543908
+    }
+  },
+  {
+    "step": 1036000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4735.313726922923
+    }
+  },
+  {
+    "step": 1041000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4779.022065747538
+    }
+  },
+  {
+    "step": 1046000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4715.514643555766
+    }
+  },
+  {
+    "step": 1051000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4757.265779317868
+    }
+  },
+  {
+    "step": 1056000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4697.097755737986
+    }
+  },
+  {
+    "step": 1061000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4782.934979049312
+    }
+  },
+  {
+    "step": 1066000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4664.666078875843
+    }
+  },
+  {
+    "step": 1071000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4867.657921842103
+    }
+  },
+  {
+    "step": 1076000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4984.063975620638
+    }
+  },
+  {
+    "step": 1081000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4726.89729836119
+    }
+  },
+  {
+    "step": 1086000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4866.688523680742
+    }
+  },
+  {
+    "step": 1091000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4803.678774243219
+    }
+  },
+  {
+    "step": 1096000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4709.092853388586
+    }
+  },
+  {
+    "step": 1101000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4690.206659920561
+    }
+  },
+  {
+    "step": 1106000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4809.094979897174
+    }
+  },
+  {
+    "step": 1111000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4819.292055054808
+    }
+  },
+  {
+    "step": 1116000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4693.169969710563
+    }
+  },
+  {
+    "step": 1121000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4684.36635473161
+    }
+  },
+  {
+    "step": 1126000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4831.372605337159
+    }
+  },
+  {
+    "step": 1131000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4680.810842149373
+    }
+  },
+  {
+    "step": 1136000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4668.070177642093
+    }
+  },
+  {
+    "step": 1141000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4724.41679304661
+    }
+  },
+  {
+    "step": 1146000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4967.075829707819
+    }
+  },
+  {
+    "step": 1151000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4868.978802014238
+    }
+  },
+  {
+    "step": 1156000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4775.320572004482
+    }
+  },
+  {
+    "step": 1161000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4781.147154087869
+    }
+  },
+  {
+    "step": 1166000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4730.847285781265
+    }
+  },
+  {
+    "step": 1171000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4845.020629621777
+    }
+  },
+  {
+    "step": 1176000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4800.350870425464
+    }
+  },
+  {
+    "step": 1181000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5024.8163975268935
+    }
+  },
+  {
+    "step": 1186000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4919.726483657166
+    }
+  },
+  {
+    "step": 1191000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4842.6658810895615
+    }
+  },
+  {
+    "step": 1196000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4783.330924460667
+    }
+  },
+  {
+    "step": 1201000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4928.917522232292
+    }
+  },
+  {
+    "step": 1206000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4831.457087761389
+    }
+  },
+  {
+    "step": 1211000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4910.555050925919
+    }
+  },
+  {
+    "step": 1216000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4996.743389694506
+    }
+  },
+  {
+    "step": 1221000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4986.221733440402
+    }
+  },
+  {
+    "step": 1226000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4871.855357518313
+    }
+  },
+  {
+    "step": 1231000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4940.405512420025
+    }
+  },
+  {
+    "step": 1236000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5079.406142591212
+    }
+  },
+  {
+    "step": 1241000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4954.309302703079
+    }
+  },
+  {
+    "step": 1246000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4680.166587053368
+    }
+  },
+  {
+    "step": 1251000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4865.827231184033
+    }
+  },
+  {
+    "step": 1256000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5035.776005644572
+    }
+  },
+  {
+    "step": 1261000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4944.084093195006
+    }
+  },
+  {
+    "step": 1266000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4855.1098293678415
+    }
+  },
+  {
+    "step": 1271000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4966.01502098071
+    }
+  },
+  {
+    "step": 1276000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4975.460832506519
+    }
+  },
+  {
+    "step": 1281000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4844.228767603332
+    }
+  },
+  {
+    "step": 1286000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4764.1540895990065
+    }
+  },
+  {
+    "step": 1291000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4885.013991419205
+    }
+  },
+  {
+    "step": 1296000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5015.287345369943
+    }
+  },
+  {
+    "step": 1301000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4890.993145274982
+    }
+  },
+  {
+    "step": 1306000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4893.710237444383
+    }
+  },
+  {
+    "step": 1311000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4931.487823540819
+    }
+  },
+  {
+    "step": 1316000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5001.94481717282
+    }
+  },
+  {
+    "step": 1321000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5049.479941686228
+    }
+  },
+  {
+    "step": 1326000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5097.714902675488
+    }
+  },
+  {
+    "step": 1331000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5052.280640005672
+    }
+  },
+  {
+    "step": 1336000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5087.236476489949
+    }
+  },
+  {
+    "step": 1341000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4898.607901809167
+    }
+  },
+  {
+    "step": 1346000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4916.339218150608
+    }
+  },
+  {
+    "step": 1351000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5019.805105271182
+    }
+  },
+  {
+    "step": 1356000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5210.078582387173
+    }
+  },
+  {
+    "step": 1361000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4952.795971854952
+    }
+  },
+  {
+    "step": 1366000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4994.579209423844
+    }
+  },
+  {
+    "step": 1371000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4878.276626317371
+    }
+  },
+  {
+    "step": 1376000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4774.045269443313
+    }
+  },
+  {
+    "step": 1381000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4728.598454857806
+    }
+  },
+  {
+    "step": 1386000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4746.3675008729315
+    }
+  },
+  {
+    "step": 1391000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4723.164818191418
+    }
+  },
+  {
+    "step": 1396000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4858.277832026551
+    }
+  },
+  {
+    "step": 1401000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4978.992172902414
+    }
+  },
+  {
+    "step": 1406000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4824.131188262613
+    }
+  },
+  {
+    "step": 1411000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4927.979557066994
+    }
+  },
+  {
+    "step": 1416000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5002.703320300438
+    }
+  },
+  {
+    "step": 1421000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4995.669632513995
+    }
+  },
+  {
+    "step": 1426000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4884.673319166696
+    }
+  },
+  {
+    "step": 1431000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4997.080282283825
+    }
+  },
+  {
+    "step": 1436000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4838.110262747205
+    }
+  },
+  {
+    "step": 1441000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5083.357346075158
+    }
+  },
+  {
+    "step": 1446000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5152.647921218848
+    }
+  },
+  {
+    "step": 1451000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5032.930381543959
+    }
+  },
+  {
+    "step": 1456000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4938.791413755146
+    }
+  },
+  {
+    "step": 1461000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4894.454631339618
+    }
+  },
+  {
+    "step": 1466000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5046.743297450981
+    }
+  },
+  {
+    "step": 1471000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4950.932229421868
+    }
+  },
+  {
+    "step": 1476000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4846.404569291437
+    }
+  },
+  {
+    "step": 1481000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4830.541693789285
+    }
+  },
+  {
+    "step": 1486000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4795.590888278008
+    }
+  },
+  {
+    "step": 1491000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4851.495109466011
+    }
+  },
+  {
+    "step": 1496000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4929.217051901052
+    }
+  },
+  {
+    "step": 1501000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4887.183697018198
+    }
+  },
+  {
+    "step": 1506000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4956.981591902903
+    }
+  },
+  {
+    "step": 1511000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4936.596117165517
+    }
+  },
+  {
+    "step": 1516000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5011.982424462809
+    }
+  },
+  {
+    "step": 1521000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4873.926451783615
+    }
+  },
+  {
+    "step": 1526000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4903.095255997703
+    }
+  },
+  {
+    "step": 1531000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5018.5344854238065
+    }
+  },
+  {
+    "step": 1536000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5015.246069474422
+    }
+  },
+  {
+    "step": 1541000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5005.158493645442
+    }
+  },
+  {
+    "step": 1546000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5099.309309248343
+    }
+  },
+  {
+    "step": 1551000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4887.971407565
+    }
+  },
+  {
+    "step": 1556000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4888.419372101157
+    }
+  },
+  {
+    "step": 1561000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4849.395938601205
+    }
+  },
+  {
+    "step": 1566000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4846.990089844335
+    }
+  },
+  {
+    "step": 1571000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4871.752861031384
+    }
+  },
+  {
+    "step": 1576000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4788.374309195574
+    }
+  },
+  {
+    "step": 1581000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4763.073979907311
+    }
+  },
+  {
+    "step": 1586000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4774.72215065459
+    }
+  },
+  {
+    "step": 1591000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4789.539447722044
+    }
+  },
+  {
+    "step": 1596000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4897.444382779044
+    }
+  },
+  {
+    "step": 1601000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4865.786852463817
+    }
+  },
+  {
+    "step": 1606000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4857.8218544817855
+    }
+  },
+  {
+    "step": 1611000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4981.370227392483
+    }
+  },
+  {
+    "step": 1616000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5070.317661915599
+    }
+  },
+  {
+    "step": 1621000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4894.576075294755
+    }
+  },
+  {
+    "step": 1626000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4902.793883733049
+    }
+  },
+  {
+    "step": 1631000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4755.554925089418
+    }
+  },
+  {
+    "step": 1636000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4965.109211223305
+    }
+  },
+  {
+    "step": 1641000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5107.830451352559
+    }
+  },
+  {
+    "step": 1646000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5069.338642200818
+    }
+  },
+  {
+    "step": 1651000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4813.596966646452
+    }
+  },
+  {
+    "step": 1656000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4991.105169738659
+    }
+  },
+  {
+    "step": 1661000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5138.044824388851
+    }
+  },
+  {
+    "step": 1666000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5176.386712951383
+    }
+  },
+  {
+    "step": 1671000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5282.9412904943865
+    }
+  },
+  {
+    "step": 1676000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5315.425028688418
+    }
+  },
+  {
+    "step": 1681000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5176.042992999339
+    }
+  },
+  {
+    "step": 1686000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5007.622215322227
+    }
+  },
+  {
+    "step": 1691000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5017.472046452391
+    }
+  },
+  {
+    "step": 1696000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4969.925547603818
+    }
+  },
+  {
+    "step": 1701000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4938.224282709721
+    }
+  },
+  {
+    "step": 1706000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5031.276717199958
+    }
+  },
+  {
+    "step": 1711000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4999.052964522601
+    }
+  },
+  {
+    "step": 1716000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4907.418685984351
+    }
+  },
+  {
+    "step": 1721000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4883.7707676326245
+    }
+  },
+  {
+    "step": 1726000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4925.705430598976
+    }
+  },
+  {
+    "step": 1731000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5045.614584009755
+    }
+  },
+  {
+    "step": 1736000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4910.533977279409
+    }
+  },
+  {
+    "step": 1741000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4940.718851357333
+    }
+  },
+  {
+    "step": 1746000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5039.185851615549
+    }
+  },
+  {
+    "step": 1751000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4867.923214473415
+    }
+  },
+  {
+    "step": 1756000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5132.852165767726
+    }
+  },
+  {
+    "step": 1761000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4975.845045009694
+    }
+  },
+  {
+    "step": 1766000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5177.539547716937
+    }
+  },
+  {
+    "step": 1771000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5291.933668098197
+    }
+  },
+  {
+    "step": 1776000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5126.757403117542
+    }
+  },
+  {
+    "step": 1781000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4947.777205337846
+    }
+  },
+  {
+    "step": 1786000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5009.165497755598
+    }
+  },
+  {
+    "step": 1791000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5032.720845221051
+    }
+  },
+  {
+    "step": 1796000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5164.497916627939
+    }
+  },
+  {
+    "step": 1801000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5146.131621768308
+    }
+  },
+  {
+    "step": 1806000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4963.459330207751
+    }
+  },
+  {
+    "step": 1811000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4994.814822860886
+    }
+  },
+  {
+    "step": 1816000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4737.70634546389
+    }
+  },
+  {
+    "step": 1821000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4834.168454450937
+    }
+  },
+  {
+    "step": 1826000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4893.341843336687
+    }
+  },
+  {
+    "step": 1831000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5026.940156494403
+    }
+  },
+  {
+    "step": 1836000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4929.223315431411
+    }
+  },
+  {
+    "step": 1841000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4957.223134237662
+    }
+  },
+  {
+    "step": 1846000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5201.157256847823
+    }
+  },
+  {
+    "step": 1851000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4946.396159973073
+    }
+  },
+  {
+    "step": 1856000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4894.486573341696
+    }
+  },
+  {
+    "step": 1861000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4999.373157000571
+    }
+  },
+  {
+    "step": 1866000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4856.30050404847
+    }
+  },
+  {
+    "step": 1871000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4976.858874129544
+    }
+  },
+  {
+    "step": 1876000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5112.220282115983
+    }
+  },
+  {
+    "step": 1881000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4831.10180054179
+    }
+  },
+  {
+    "step": 1886000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4870.365355390032
+    }
+  },
+  {
+    "step": 1891000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4814.356580000182
+    }
+  },
+  {
+    "step": 1896000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4931.831732381541
+    }
+  },
+  {
+    "step": 1901000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4924.0897835676005
+    }
+  },
+  {
+    "step": 1906000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5017.324288083184
+    }
+  },
+  {
+    "step": 1911000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4752.60703676
+    }
+  },
+  {
+    "step": 1916000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4873.8370639227
+    }
+  },
+  {
+    "step": 1921000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4759.694723220882
+    }
+  },
+  {
+    "step": 1926000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4828.32147995354
+    }
+  },
+  {
+    "step": 1931000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4863.067977917581
+    }
+  },
+  {
+    "step": 1936000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4690.858507124159
+    }
+  },
+  {
+    "step": 1941000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4761.329518179063
+    }
+  },
+  {
+    "step": 1946000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4878.691947086654
+    }
+  },
+  {
+    "step": 1951000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4808.426630268083
+    }
+  },
+  {
+    "step": 1956000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4809.997225787913
+    }
+  },
+  {
+    "step": 1961000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4836.713311146123
+    }
+  },
+  {
+    "step": 1966000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4907.283623820984
+    }
+  },
+  {
+    "step": 1971000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4899.176242104082
+    }
+  },
+  {
+    "step": 1976000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4823.117477073976
+    }
+  },
+  {
+    "step": 1981000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4774.115740760859
+    }
+  },
+  {
+    "step": 1986000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4707.540608825383
+    }
+  },
+  {
+    "step": 1991000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4817.382658255761
+    }
+  },
+  {
+    "step": 1996000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4851.219971250224
+    }
+  },
+  {
+    "step": 2001000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4681.616821471465
+    }
+  },
+  {
+    "step": 2006000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4592.8022263238245
+    }
+  },
+  {
+    "step": 2011000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4595.327931222564
+    }
+  },
+  {
+    "step": 2016000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4595.079121611887
+    }
+  },
+  {
+    "step": 2021000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4676.912557840677
+    }
+  },
+  {
+    "step": 2026000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4909.965794070016
+    }
+  },
+  {
+    "step": 2031000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4778.428075168847
+    }
+  },
+  {
+    "step": 2036000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4754.237948617445
+    }
+  },
+  {
+    "step": 2041000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4650.89969753864
+    }
+  },
+  {
+    "step": 2046000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4618.396057380623
+    }
+  },
+  {
+    "step": 2051000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4623.455002255825
+    }
+  },
+  {
+    "step": 2056000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4791.647669441866
+    }
+  },
+  {
+    "step": 2061000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5033.836759307806
+    }
+  },
+  {
+    "step": 2066000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5020.9993560465355
+    }
+  },
+  {
+    "step": 2071000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4830.618388926296
+    }
+  },
+  {
+    "step": 2076000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4821.286232878295
+    }
+  },
+  {
+    "step": 2081000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4789.9880041932265
+    }
+  },
+  {
+    "step": 2086000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4732.557379170084
+    }
+  },
+  {
+    "step": 2091000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4720.282621958035
+    }
+  },
+  {
+    "step": 2096000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4755.341882434021
+    }
+  },
+  {
+    "step": 2101000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4778.136776811203
+    }
+  },
+  {
+    "step": 2106000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4829.468203103827
+    }
+  },
+  {
+    "step": 2111000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4805.180808741708
+    }
+  },
+  {
+    "step": 2116000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4686.945312915212
+    }
+  },
+  {
+    "step": 2121000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4870.625530456478
+    }
+  },
+  {
+    "step": 2126000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4825.79093864594
+    }
+  },
+  {
+    "step": 2131000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4724.547370608825
+    }
+  },
+  {
+    "step": 2136000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4761.0576687753255
+    }
+  },
+  {
+    "step": 2141000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4816.6713100928755
+    }
+  },
+  {
+    "step": 2146000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4956.513020685634
+    }
+  },
+  {
+    "step": 2151000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4764.370574783938
+    }
+  },
+  {
+    "step": 2156000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4688.582079646421
+    }
+  },
+  {
+    "step": 2161000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4722.123393268597
+    }
+  },
+  {
+    "step": 2166000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4615.931561556505
+    }
+  },
+  {
+    "step": 2171000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4610.260062491594
+    }
+  },
+  {
+    "step": 2176000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4732.644566633669
+    }
+  },
+  {
+    "step": 2181000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4685.536662488959
+    }
+  },
+  {
+    "step": 2186000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4663.851542274792
+    }
+  },
+  {
+    "step": 2191000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4718.516179345794
+    }
+  },
+  {
+    "step": 2196000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4784.653801714521
+    }
+  },
+  {
+    "step": 2201000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4653.094379990055
+    }
+  },
+  {
+    "step": 2206000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4717.809084246966
+    }
+  },
+  {
+    "step": 2211000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4845.546343250785
+    }
+  },
+  {
+    "step": 2216000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4736.522386930537
+    }
+  },
+  {
+    "step": 2221000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4671.892966425148
+    }
+  },
+  {
+    "step": 2226000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4734.714360976747
+    }
+  },
+  {
+    "step": 2231000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4771.8670192378095
+    }
+  },
+  {
+    "step": 2236000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4933.1503876325805
+    }
+  },
+  {
+    "step": 2241000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4886.98372221692
+    }
+  },
+  {
+    "step": 2246000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4897.996794403386
+    }
+  },
+  {
+    "step": 2251000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4903.394111109065
+    }
+  },
+  {
+    "step": 2256000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4941.565815943549
+    }
+  },
+  {
+    "step": 2261000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4843.664190490017
+    }
+  },
+  {
+    "step": 2266000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4778.582463337105
+    }
+  },
+  {
+    "step": 2271000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4854.299830852937
+    }
+  },
+  {
+    "step": 2276000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4792.547827474069
+    }
+  },
+  {
+    "step": 2281000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4740.115154120682
+    }
+  },
+  {
+    "step": 2286000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4746.581809928546
+    }
+  },
+  {
+    "step": 2291000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4754.261615226154
+    }
+  },
+  {
+    "step": 2296000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4654.373587129001
+    }
+  },
+  {
+    "step": 2301000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4665.671135677825
+    }
+  },
+  {
+    "step": 2306000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4770.078621486776
+    }
+  },
+  {
+    "step": 2311000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4713.896884684037
+    }
+  },
+  {
+    "step": 2316000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4772.626606818617
+    }
+  },
+  {
+    "step": 2321000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4807.84283402438
+    }
+  },
+  {
+    "step": 2326000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5044.789828893564
+    }
+  },
+  {
+    "step": 2331000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5136.843160790127
+    }
+  },
+  {
+    "step": 2336000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4996.603097854226
+    }
+  },
+  {
+    "step": 2341000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4890.839347642997
+    }
+  },
+  {
+    "step": 2346000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4879.079537849528
+    }
+  },
+  {
+    "step": 2351000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4719.501686593011
+    }
+  },
+  {
+    "step": 2356000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4756.409697729026
+    }
+  },
+  {
+    "step": 2361000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4756.890428386089
+    }
+  },
+  {
+    "step": 2366000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4735.727189832083
+    }
+  },
+  {
+    "step": 2371000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4777.2985067791715
+    }
+  },
+  {
+    "step": 2376000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4656.834398858213
+    }
+  },
+  {
+    "step": 2381000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4653.232641388077
+    }
+  },
+  {
+    "step": 2386000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4865.8601666866425
+    }
+  },
+  {
+    "step": 2391000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4866.209947992897
+    }
+  },
+  {
+    "step": 2396000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4917.09019695395
+    }
+  },
+  {
+    "step": 2401000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4854.366002537628
+    }
+  },
+  {
+    "step": 2406000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4851.399092300114
+    }
+  },
+  {
+    "step": 2411000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4960.352483326942
+    }
+  },
+  {
+    "step": 2416000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4900.228627200763
+    }
+  },
+  {
+    "step": 2421000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5005.787401336854
+    }
+  },
+  {
+    "step": 2426000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5098.237270306501
+    }
+  },
+  {
+    "step": 2431000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5190.336227203888
+    }
+  },
+  {
+    "step": 2436000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5187.729523826087
+    }
+  },
+  {
+    "step": 2441000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5003.761392172598
+    }
+  },
+  {
+    "step": 2446000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4821.491467559402
+    }
+  },
+  {
+    "step": 2451000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4937.388224739773
+    }
+  },
+  {
+    "step": 2456000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4861.290099941257
+    }
+  },
+  {
+    "step": 2461000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4773.076209316055
+    }
+  },
+  {
+    "step": 2466000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4679.942533367159
+    }
+  },
+  {
+    "step": 2471000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4658.28580570904
+    }
+  },
+  {
+    "step": 2476000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4718.119235621171
+    }
+  },
+  {
+    "step": 2481000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4802.543693470102
+    }
+  },
+  {
+    "step": 2486000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4760.12325479972
+    }
+  },
+  {
+    "step": 2491000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4813.379279558036
+    }
+  },
+  {
+    "step": 2496000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4751.593552977496
+    }
+  },
+  {
+    "step": 2501000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4806.870434064798
+    }
+  },
+  {
+    "step": 2506000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4772.064920048036
+    }
+  },
+  {
+    "step": 2511000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4881.701318606911
+    }
+  },
+  {
+    "step": 2516000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4776.294700109033
+    }
+  },
+  {
+    "step": 2521000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4752.840498721903
+    }
+  },
+  {
+    "step": 2526000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4929.206765405623
+    }
+  },
+  {
+    "step": 2531000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4964.221624304575
+    }
+  },
+  {
+    "step": 2536000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4640.867701614973
+    }
+  },
+  {
+    "step": 2541000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4604.140812412485
+    }
+  },
+  {
+    "step": 2546000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4560.9098989331715
+    }
+  },
+  {
+    "step": 2551000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4605.017847946505
+    }
+  },
+  {
+    "step": 2556000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4656.148434194305
+    }
+  },
+  {
+    "step": 2561000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4630.520316296921
+    }
+  },
+  {
+    "step": 2566000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4613.20525497989
+    }
+  },
+  {
+    "step": 2571000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4656.2366977259635
+    }
+  },
+  {
+    "step": 2576000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4599.740133874284
+    }
+  },
+  {
+    "step": 2581000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4553.052565061938
+    }
+  },
+  {
+    "step": 2586000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4566.710571683353
+    }
+  },
+  {
+    "step": 2591000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4640.97985942745
+    }
+  },
+  {
+    "step": 2596000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4643.722883244124
+    }
+  },
+  {
+    "step": 2601000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4866.178977734753
+    }
+  },
+  {
+    "step": 2606000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4757.6020658239095
+    }
+  },
+  {
+    "step": 2611000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4872.69736293759
+    }
+  },
+  {
+    "step": 2616000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4914.582599534559
+    }
+  },
+  {
+    "step": 2621000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4792.885943210054
+    }
+  },
+  {
+    "step": 2626000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4851.648392150639
+    }
+  },
+  {
+    "step": 2631000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4908.14181203446
+    }
+  },
+  {
+    "step": 2636000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4785.52830518703
+    }
+  },
+  {
+    "step": 2641000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4821.012837360899
+    }
+  },
+  {
+    "step": 2646000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4683.447035015312
+    }
+  },
+  {
+    "step": 2651000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4752.5995512110485
+    }
+  },
+  {
+    "step": 2656000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4583.525568302233
+    }
+  },
+  {
+    "step": 2661000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4922.046212944192
+    }
+  },
+  {
+    "step": 2666000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4610.287096800794
+    }
+  },
+  {
+    "step": 2671000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4688.735239592166
+    }
+  },
+  {
+    "step": 2676000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4696.562793497598
+    }
+  },
+  {
+    "step": 2681000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4696.372788208993
+    }
+  },
+  {
+    "step": 2686000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4715.375586029386
+    }
+  },
+  {
+    "step": 2691000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4763.836565782587
+    }
+  },
+  {
+    "step": 2696000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4761.881224488812
+    }
+  },
+  {
+    "step": 2701000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4742.953715074693
+    }
+  },
+  {
+    "step": 2706000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4586.519090884912
+    }
+  },
+  {
+    "step": 2711000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4704.475499078212
+    }
+  },
+  {
+    "step": 2716000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4731.380602097665
+    }
+  },
+  {
+    "step": 2721000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4724.039202380669
+    }
+  },
+  {
+    "step": 2726000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4656.305634297749
+    }
+  },
+  {
+    "step": 2731000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4649.138588274458
+    }
+  },
+  {
+    "step": 2736000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4633.802411691757
+    }
+  },
+  {
+    "step": 2741000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4648.693999638597
+    }
+  },
+  {
+    "step": 2746000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4640.193413670845
+    }
+  },
+  {
+    "step": 2751000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4720.098269229898
+    }
+  },
+  {
+    "step": 2756000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4625.523906964589
+    }
+  },
+  {
+    "step": 2761000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4742.662458642968
+    }
+  },
+  {
+    "step": 2766000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4856.249935981106
+    }
+  },
+  {
+    "step": 2771000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4838.33153999075
+    }
+  },
+  {
+    "step": 2776000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4962.8325022567915
+    }
+  },
+  {
+    "step": 2781000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4843.533863886663
+    }
+  },
+  {
+    "step": 2786000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4874.76843471943
+    }
+  },
+  {
+    "step": 2791000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4820.392795524325
+    }
+  },
+  {
+    "step": 2796000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4674.129468728604
+    }
+  },
+  {
+    "step": 2801000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4611.82589054967
+    }
+  },
+  {
+    "step": 2806000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4673.392465045844
+    }
+  },
+  {
+    "step": 2811000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4696.763324982448
+    }
+  },
+  {
+    "step": 2816000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4723.97275325915
+    }
+  },
+  {
+    "step": 2821000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4750.202799812918
+    }
+  },
+  {
+    "step": 2826000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4648.628064631129
+    }
+  },
+  {
+    "step": 2831000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4719.166401726785
+    }
+  },
+  {
+    "step": 2836000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4726.004300622973
+    }
+  },
+  {
+    "step": 2841000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4723.184035556757
+    }
+  },
+  {
+    "step": 2846000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4811.770313573203
+    }
+  },
+  {
+    "step": 2851000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4664.0173813069905
+    }
+  },
+  {
+    "step": 2856000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4674.910855650805
+    }
+  },
+  {
+    "step": 2861000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4657.010981503168
+    }
+  },
+  {
+    "step": 2866000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4677.748945302844
+    }
+  },
+  {
+    "step": 2871000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4677.512221368039
+    }
+  },
+  {
+    "step": 2876000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4682.225240004149
+    }
+  },
+  {
+    "step": 2881000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4667.58670151345
+    }
+  },
+  {
+    "step": 2886000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4637.628273421156
+    }
+  },
+  {
+    "step": 2891000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4640.159480673475
+    }
+  },
+  {
+    "step": 2896000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4553.342656583837
+    }
+  },
+  {
+    "step": 2901000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4550.816463795498
+    }
+  },
+  {
+    "step": 2906000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4541.464660650743
+    }
+  },
+  {
+    "step": 2911000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4571.838586480933
+    }
+  },
+  {
+    "step": 2916000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4570.773221191168
+    }
+  },
+  {
+    "step": 2921000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4598.460261958875
+    }
+  },
+  {
+    "step": 2926000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4602.110259517342
+    }
+  },
+  {
+    "step": 2931000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4724.796681089113
+    }
+  },
+  {
+    "step": 2936000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4689.932826494912
+    }
+  },
+  {
+    "step": 2941000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4654.499735403675
+    }
+  },
+  {
+    "step": 2946000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4603.030264111827
+    }
+  },
+  {
+    "step": 2951000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4613.042641917631
+    }
+  },
+  {
+    "step": 2956000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4568.755802322237
+    }
+  },
+  {
+    "step": 2961000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4558.143085225704
+    }
+  },
+  {
+    "step": 2966000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4570.981284803954
+    }
+  },
+  {
+    "step": 2971000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4709.269113245737
+    }
+  },
+  {
+    "step": 2976000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4676.989619723428
+    }
+  },
+  {
+    "step": 2981000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4692.442080351259
+    }
+  },
+  {
+    "step": 2986000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4719.584771062179
+    }
+  },
+  {
+    "step": 2991000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4982.216093483539
+    }
+  },
+  {
+    "step": 2996000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4813.0552172021025
+    }
+  },
+  {
+    "step": 3001000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4801.8065742600975
+    }
+  },
+  {
+    "step": 3006000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4613.598147258492
+    }
+  },
+  {
+    "step": 3011000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4647.895684427289
+    }
+  },
+  {
+    "step": 3016000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4775.662614415606
+    }
+  },
+  {
+    "step": 3021000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4936.359836445732
+    }
+  },
+  {
+    "step": 3026000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4893.931007800315
+    }
+  },
+  {
+    "step": 3031000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4939.16409225382
+    }
+  },
+  {
+    "step": 3036000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4944.609251122541
+    }
+  },
+  {
+    "step": 3041000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4727.166334584692
+    }
+  },
+  {
+    "step": 3046000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4670.418565973442
+    }
+  },
+  {
+    "step": 3051000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4674.3005446459665
+    }
+  },
+  {
+    "step": 3056000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4659.803794755642
+    }
+  },
+  {
+    "step": 3061000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4696.256113932597
+    }
+  },
+  {
+    "step": 3066000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4490.389586814539
+    }
+  },
+  {
+    "step": 3071000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4541.054471552144
+    }
+  },
+  {
+    "step": 3076000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4513.659892991709
+    }
+  },
+  {
+    "step": 3081000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4547.9557851648515
+    }
+  },
+  {
+    "step": 3086000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4604.451911537633
+    }
+  },
+  {
+    "step": 3091000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4754.347231691669
+    }
+  },
+  {
+    "step": 3096000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4670.794420659991
+    }
+  },
+  {
+    "step": 3101000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4632.737271602345
+    }
+  },
+  {
+    "step": 3106000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4588.209015510254
+    }
+  },
+  {
+    "step": 3111000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4568.010250675619
+    }
+  },
+  {
+    "step": 3116000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4558.881414731523
+    }
+  },
+  {
+    "step": 3121000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4607.489308095976
+    }
+  },
+  {
+    "step": 3126000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4861.780896990178
+    }
+  },
+  {
+    "step": 3131000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4950.461935353144
+    }
+  },
+  {
+    "step": 3136000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4941.066629683099
+    }
+  },
+  {
+    "step": 3141000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5072.417190038654
+    }
+  },
+  {
+    "step": 3146000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5015.321168716734
+    }
+  },
+  {
+    "step": 3151000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4977.509808917299
+    }
+  },
+  {
+    "step": 3156000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4871.529647926434
+    }
+  },
+  {
+    "step": 3161000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4952.022019827989
+    }
+  },
+  {
+    "step": 3166000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4707.077405780542
+    }
+  },
+  {
+    "step": 3171000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4769.955536530758
+    }
+  },
+  {
+    "step": 3176000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4618.2607532187085
+    }
+  },
+  {
+    "step": 3181000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4687.07397159865
+    }
+  },
+  {
+    "step": 3186000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4766.371184539693
+    }
+  },
+  {
+    "step": 3191000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5005.675111717355
+    }
+  },
+  {
+    "step": 3196000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5038.447323856873
+    }
+  },
+  {
+    "step": 3201000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5009.382946010995
+    }
+  },
+  {
+    "step": 3206000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4994.795401947787
+    }
+  },
+  {
+    "step": 3211000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4963.121164187941
+    }
+  },
+  {
+    "step": 3216000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4781.645358036529
+    }
+  },
+  {
+    "step": 3221000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4774.608523948812
+    }
+  },
+  {
+    "step": 3226000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4745.285547865626
+    }
+  },
+  {
+    "step": 3231000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4790.402550939027
+    }
+  },
+  {
+    "step": 3236000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4895.556102047471
+    }
+  },
+  {
+    "step": 3241000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5157.098014560389
+    }
+  },
+  {
+    "step": 3246000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4957.871348985141
+    }
+  },
+  {
+    "step": 3251000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4885.081038964665
+    }
+  },
+  {
+    "step": 3256000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5072.453905455934
+    }
+  },
+  {
+    "step": 3261000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4958.7908082698
+    }
+  },
+  {
+    "step": 3266000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4904.771392434659
+    }
+  },
+  {
+    "step": 3271000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5260.7880815759145
+    }
+  },
+  {
+    "step": 3276000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5079.527770440325
+    }
+  },
+  {
+    "step": 3281000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5178.591040704696
+    }
+  },
+  {
+    "step": 3286000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4969.807287974268
+    }
+  },
+  {
+    "step": 3291000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5040.952366094157
+    }
+  },
+  {
+    "step": 3296000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5265.075877832556
+    }
+  },
+  {
+    "step": 3301000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5210.448371033252
+    }
+  },
+  {
+    "step": 3306000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5295.012274981493
+    }
+  },
+  {
+    "step": 3311000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5325.221358579136
+    }
+  },
+  {
+    "step": 3316000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5299.899204871212
+    }
+  },
+  {
+    "step": 3321000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5335.067554927167
+    }
+  },
+  {
+    "step": 3326000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5098.17918193514
+    }
+  },
+  {
+    "step": 3331000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5227.918746548428
+    }
+  },
+  {
+    "step": 3336000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5341.354200888958
+    }
+  },
+  {
+    "step": 3341000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5143.68965887823
+    }
+  },
+  {
+    "step": 3346000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5162.102912736996
+    }
+  },
+  {
+    "step": 3351000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5261.549365158294
+    }
+  },
+  {
+    "step": 3356000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5284.980000600757
+    }
+  },
+  {
+    "step": 3361000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5035.762674643583
+    }
+  },
+  {
+    "step": 3366000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5337.995102384902
+    }
+  },
+  {
+    "step": 3371000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5040.169162471223
+    }
+  },
+  {
+    "step": 3376000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4835.2870519053085
+    }
+  },
+  {
+    "step": 3381000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4887.474834321282
+    }
+  },
+  {
+    "step": 3386000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4942.086572154023
+    }
+  },
+  {
+    "step": 3391000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4721.380561581271
+    }
+  },
+  {
+    "step": 3396000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4683.635783549954
+    }
+  },
+  {
+    "step": 3401000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4885.27594329655
+    }
+  },
+  {
+    "step": 3406000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4821.258941402839
+    }
+  },
+  {
+    "step": 3411000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5199.721140945139
+    }
+  },
+  {
+    "step": 3416000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5203.128291277539
+    }
+  },
+  {
+    "step": 3421000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5073.70785572636
+    }
+  },
+  {
+    "step": 3426000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4848.392899784111
+    }
+  },
+  {
+    "step": 3431000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4822.980646207791
+    }
+  },
+  {
+    "step": 3436000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4738.593120185373
+    }
+  },
+  {
+    "step": 3441000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4853.693080635227
+    }
+  },
+  {
+    "step": 3446000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4740.688806157792
+    }
+  },
+  {
+    "step": 3451000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4762.303161896663
+    }
+  },
+  {
+    "step": 3456000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4833.021916175681
+    }
+  },
+  {
+    "step": 3461000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4963.410268174515
+    }
+  },
+  {
+    "step": 3466000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4782.808292224583
+    }
+  },
+  {
+    "step": 3471000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4658.370665714078
+    }
+  },
+  {
+    "step": 3476000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4624.036265456237
+    }
+  },
+  {
+    "step": 3481000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4681.193528955131
+    }
+  },
+  {
+    "step": 3486000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4723.907486549737
+    }
+  },
+  {
+    "step": 3491000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4666.317156586748
+    }
+  },
+  {
+    "step": 3496000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4676.697963453275
+    }
+  },
+  {
+    "step": 3501000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4735.296308447146
+    }
+  },
+  {
+    "step": 3506000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4859.216492128136
+    }
+  },
+  {
+    "step": 3511000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4744.630702094961
+    }
+  },
+  {
+    "step": 3516000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4898.305596710385
+    }
+  },
+  {
+    "step": 3521000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5110.036865583347
+    }
+  },
+  {
+    "step": 3526000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5027.173947925612
+    }
+  },
+  {
+    "step": 3531000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5212.173772357419
+    }
+  },
+  {
+    "step": 3536000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4906.657015496138
+    }
+  },
+  {
+    "step": 3541000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5057.150611848507
+    }
+  },
+  {
+    "step": 3546000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4781.137699409491
+    }
+  },
+  {
+    "step": 3551000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4749.052849256965
+    }
+  },
+  {
+    "step": 3556000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4886.067884508421
+    }
+  },
+  {
+    "step": 3561000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5189.323465233638
+    }
+  },
+  {
+    "step": 3566000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5303.13251451203
+    }
+  },
+  {
+    "step": 3571000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4976.5282980979355
+    }
+  },
+  {
+    "step": 3576000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4919.358587130206
+    }
+  },
+  {
+    "step": 3581000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5093.988167589971
+    }
+  },
+  {
+    "step": 3586000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5216.907373054992
+    }
+  },
+  {
+    "step": 3591000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5249.187979793571
+    }
+  },
+  {
+    "step": 3596000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5229.93160233983
+    }
+  },
+  {
+    "step": 3601000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4931.228568685143
+    }
+  },
+  {
+    "step": 3606000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4866.057679417031
+    }
+  },
+  {
+    "step": 3611000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4766.930588354752
+    }
+  },
+  {
+    "step": 3616000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4746.274136397436
+    }
+  },
+  {
+    "step": 3621000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4738.218932666716
+    }
+  },
+  {
+    "step": 3626000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4721.121133104321
+    }
+  },
+  {
+    "step": 3631000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4675.818113431863
+    }
+  },
+  {
+    "step": 3636000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4636.652164945064
+    }
+  },
+  {
+    "step": 3641000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4655.823673993672
+    }
+  },
+  {
+    "step": 3646000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4616.404564280827
+    }
+  },
+  {
+    "step": 3651000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4585.525346790424
+    }
+  },
+  {
+    "step": 3656000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4599.169371516253
+    }
+  },
+  {
+    "step": 3661000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4646.018044977022
+    }
+  },
+  {
+    "step": 3666000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4695.536694385667
+    }
+  },
+  {
+    "step": 3671000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4697.665342029164
+    }
+  },
+  {
+    "step": 3676000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4679.210384348457
+    }
+  },
+  {
+    "step": 3681000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4742.738452849126
+    }
+  },
+  {
+    "step": 3686000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4704.8218578373435
+    }
+  },
+  {
+    "step": 3691000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4615.99027547012
+    }
+  },
+  {
+    "step": 3696000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4638.493072643106
+    }
+  },
+  {
+    "step": 3701000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4627.416580622542
+    }
+  },
+  {
+    "step": 3706000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4707.53089439753
+    }
+  },
+  {
+    "step": 3711000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4688.055719898206
+    }
+  },
+  {
+    "step": 3716000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4733.102339958425
+    }
+  },
+  {
+    "step": 3721000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4694.231966788152
+    }
+  },
+  {
+    "step": 3726000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4689.645101043099
+    }
+  },
+  {
+    "step": 3731000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4748.25182236382
+    }
+  },
+  {
+    "step": 3736000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4683.664557677199
+    }
+  },
+  {
+    "step": 3741000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4712.292022598156
+    }
+  },
+  {
+    "step": 3746000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4603.036483892278
+    }
+  },
+  {
+    "step": 3751000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4722.057391082844
+    }
+  },
+  {
+    "step": 3756000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4770.605784694208
+    }
+  },
+  {
+    "step": 3761000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4768.1634350357335
+    }
+  },
+  {
+    "step": 3766000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4768.917198306781
+    }
+  },
+  {
+    "step": 3771000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4874.101792862678
+    }
+  },
+  {
+    "step": 3776000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4896.010136776714
+    }
+  },
+  {
+    "step": 3781000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4874.302244024062
+    }
+  },
+  {
+    "step": 3786000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4812.809796124615
+    }
+  },
+  {
+    "step": 3791000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4822.075493708445
+    }
+  },
+  {
+    "step": 3796000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4708.431559979097
+    }
+  },
+  {
+    "step": 3801000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4790.563783981352
+    }
+  },
+  {
+    "step": 3806000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4724.672091218643
+    }
+  },
+  {
+    "step": 3811000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4812.3027075905975
+    }
+  },
+  {
+    "step": 3816000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4757.553618570108
+    }
+  },
+  {
+    "step": 3821000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4815.139390447657
+    }
+  },
+  {
+    "step": 3826000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4810.149261802009
+    }
+  },
+  {
+    "step": 3831000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4797.033339370458
+    }
+  },
+  {
+    "step": 3836000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4779.399430285006
+    }
+  },
+  {
+    "step": 3841000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4813.208202182293
+    }
+  },
+  {
+    "step": 3846000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4723.15340258865
+    }
+  },
+  {
+    "step": 3851000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4752.504132408338
+    }
+  },
+  {
+    "step": 3856000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4648.999514860194
+    }
+  },
+  {
+    "step": 3861000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4699.134062835305
+    }
+  },
+  {
+    "step": 3866000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4714.251577322162
+    }
+  },
+  {
+    "step": 3871000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4687.382729540328
+    }
+  },
+  {
+    "step": 3876000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4738.392873846586
+    }
+  },
+  {
+    "step": 3881000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4750.067408992689
+    }
+  },
+  {
+    "step": 3886000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4770.4935911826415
+    }
+  },
+  {
+    "step": 3891000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4682.0579802751345
+    }
+  },
+  {
+    "step": 3896000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4777.4435772230845
+    }
+  },
+  {
+    "step": 3901000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4846.597289930974
+    }
+  },
+  {
+    "step": 3906000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4900.271272557105
+    }
+  },
+  {
+    "step": 3911000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5001.468210138292
+    }
+  },
+  {
+    "step": 3916000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4932.908836911307
+    }
+  },
+  {
+    "step": 3921000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4926.44864330621
+    }
+  },
+  {
+    "step": 3926000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4747.159078707273
+    }
+  },
+  {
+    "step": 3931000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4601.370977095924
+    }
+  },
+  {
+    "step": 3936000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4549.870464797978
+    }
+  },
+  {
+    "step": 3941000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4654.743424563254
+    }
+  },
+  {
+    "step": 3946000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4597.676931228007
+    }
+  },
+  {
+    "step": 3951000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4652.67887850103
+    }
+  },
+  {
+    "step": 3956000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4588.629273325129
+    }
+  },
+  {
+    "step": 3961000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4673.311136539838
+    }
+  },
+  {
+    "step": 3966000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4666.164745871722
+    }
+  },
+  {
+    "step": 3971000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4749.413250031992
+    }
+  },
+  {
+    "step": 3976000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4744.74491824901
+    }
+  },
+  {
+    "step": 3981000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4628.921191028699
+    }
+  },
+  {
+    "step": 3986000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4663.792665474504
+    }
+  },
+  {
+    "step": 3991000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4643.300264298516
+    }
+  },
+  {
+    "step": 3996000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4788.757638173132
+    }
+  },
+  {
+    "step": 4001000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4723.589735401218
+    }
+  },
+  {
+    "step": 4006000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4798.470046358326
+    }
+  },
+  {
+    "step": 4011000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5007.387549273246
+    }
+  },
+  {
+    "step": 4016000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4746.428005431181
+    }
+  },
+  {
+    "step": 4021000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4556.928153778621
+    }
+  },
+  {
+    "step": 4026000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4761.008404711216
+    }
+  },
+  {
+    "step": 4031000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5067.408593306906
+    }
+  },
+  {
+    "step": 4036000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4959.457729160499
+    }
+  },
+  {
+    "step": 4041000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4788.193314536331
+    }
+  },
+  {
+    "step": 4046000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4634.700240804167
+    }
+  },
+  {
+    "step": 4051000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4655.452304185053
+    }
+  },
+  {
+    "step": 4056000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4630.964327224516
+    }
+  },
+  {
+    "step": 4061000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4668.268156412416
+    }
+  },
+  {
+    "step": 4066000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5044.911354685201
+    }
+  },
+  {
+    "step": 4071000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5233.110029301251
+    }
+  },
+  {
+    "step": 4076000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5126.634077490478
+    }
+  },
+  {
+    "step": 4081000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5077.466679898588
+    }
+  },
+  {
+    "step": 4086000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4778.238968306003
+    }
+  },
+  {
+    "step": 4091000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4716.379781369216
+    }
+  },
+  {
+    "step": 4096000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4726.324284965756
+    }
+  },
+  {
+    "step": 4101000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4720.755161937761
+    }
+  },
+  {
+    "step": 4106000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4769.856682709777
+    }
+  },
+  {
+    "step": 4111000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4794.3174850167225
+    }
+  },
+  {
+    "step": 4116000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4748.594886081523
+    }
+  },
+  {
+    "step": 4121000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4877.444041694517
+    }
+  },
+  {
+    "step": 4126000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4904.735902852986
+    }
+  },
+  {
+    "step": 4131000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4928.931133697749
+    }
+  },
+  {
+    "step": 4136000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4856.431945626284
+    }
+  },
+  {
+    "step": 4141000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4783.903488802147
+    }
+  },
+  {
+    "step": 4146000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4689.361837578887
+    }
+  },
+  {
+    "step": 4151000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4693.727083918641
+    }
+  },
+  {
+    "step": 4156000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4670.238552827231
+    }
+  },
+  {
+    "step": 4161000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4808.541002585674
+    }
+  },
+  {
+    "step": 4166000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4770.475886190393
+    }
+  },
+  {
+    "step": 4171000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4761.462998767808
+    }
+  },
+  {
+    "step": 4176000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4779.9730252517165
+    }
+  },
+  {
+    "step": 4181000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4979.634562299881
+    }
+  },
+  {
+    "step": 4186000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5100.132527822797
+    }
+  },
+  {
+    "step": 4191000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5091.185349443607
+    }
+  },
+  {
+    "step": 4196000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5068.17531194371
+    }
+  },
+  {
+    "step": 4201000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5037.419666563561
+    }
+  },
+  {
+    "step": 4206000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4958.658756612076
+    }
+  },
+  {
+    "step": 4211000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5038.939098424348
+    }
+  },
+  {
+    "step": 4216000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4925.762862922945
+    }
+  },
+  {
+    "step": 4221000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4938.266331345781
+    }
+  },
+  {
+    "step": 4226000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4847.593135995557
+    }
+  },
+  {
+    "step": 4231000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4870.540816111671
+    }
+  },
+  {
+    "step": 4236000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4865.508916153068
+    }
+  },
+  {
+    "step": 4241000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4829.226306071678
+    }
+  },
+  {
+    "step": 4246000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5070.247650822219
+    }
+  },
+  {
+    "step": 4251000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4778.256381265887
+    }
+  },
+  {
+    "step": 4256000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4710.275482905458
+    }
+  },
+  {
+    "step": 4261000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4699.329503556421
+    }
+  },
+  {
+    "step": 4266000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4735.015774378069
+    }
+  },
+  {
+    "step": 4271000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4708.588606044503
+    }
+  },
+  {
+    "step": 4276000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4684.721250742376
+    }
+  },
+  {
+    "step": 4281000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4785.975492311067
+    }
+  },
+  {
+    "step": 4286000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4694.211008481349
+    }
+  },
+  {
+    "step": 4291000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4729.716561767122
+    }
+  },
+  {
+    "step": 4296000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4637.012128760657
+    }
+  },
+  {
+    "step": 4301000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4649.1051439343955
+    }
+  },
+  {
+    "step": 4306000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4699.018352190937
+    }
+  },
+  {
+    "step": 4311000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4935.767995958207
+    }
+  },
+  {
+    "step": 4316000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5140.224339347899
+    }
+  },
+  {
+    "step": 4321000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5144.9014584286615
+    }
+  },
+  {
+    "step": 4326000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5138.830305204856
+    }
+  },
+  {
+    "step": 4331000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5085.782537026333
+    }
+  },
+  {
+    "step": 4336000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5037.699322557177
+    }
+  },
+  {
+    "step": 4341000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5114.52543344095
+    }
+  },
+  {
+    "step": 4346000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5112.354583991941
+    }
+  },
+  {
+    "step": 4351000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5224.736226126514
+    }
+  },
+  {
+    "step": 4356000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5119.828623734804
+    }
+  },
+  {
+    "step": 4361000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5080.794388312484
+    }
+  },
+  {
+    "step": 4366000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5119.682939234958
+    }
+  },
+  {
+    "step": 4371000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5048.504902869427
+    }
+  },
+  {
+    "step": 4376000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4992.3388551294665
+    }
+  },
+  {
+    "step": 4381000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4892.247503105315
+    }
+  },
+  {
+    "step": 4386000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5051.5864085070225
+    }
+  },
+  {
+    "step": 4391000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4871.679345538803
+    }
+  },
+  {
+    "step": 4396000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4648.488318939201
+    }
+  },
+  {
+    "step": 4401000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4827.888832378116
+    }
+  },
+  {
+    "step": 4406000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4856.1360770769625
+    }
+  },
+  {
+    "step": 4411000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4984.0312838977425
+    }
+  },
+  {
+    "step": 4416000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5004.894323453681
+    }
+  },
+  {
+    "step": 4421000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4959.776914658681
+    }
+  },
+  {
+    "step": 4426000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4943.316891301454
+    }
+  },
+  {
+    "step": 4431000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4972.263970687376
+    }
+  },
+  {
+    "step": 4436000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4825.139429353043
+    }
+  },
+  {
+    "step": 4441000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5034.813212336203
+    }
+  },
+  {
+    "step": 4446000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5091.178794427897
+    }
+  },
+  {
+    "step": 4451000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5100.166167830992
+    }
+  },
+  {
+    "step": 4456000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4987.215986746803
+    }
+  },
+  {
+    "step": 4461000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4990.603150945388
+    }
+  },
+  {
+    "step": 4466000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4972.9676262033945
+    }
+  },
+  {
+    "step": 4471000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5070.130589061754
+    }
+  },
+  {
+    "step": 4476000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4923.855488458767
+    }
+  },
+  {
+    "step": 4481000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4905.744297276055
+    }
+  },
+  {
+    "step": 4486000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5165.88559783934
+    }
+  },
+  {
+    "step": 4491000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5394.645673533274
+    }
+  },
+  {
+    "step": 4496000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4873.335348476479
+    }
+  },
+  {
+    "step": 4501000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4780.472401340836
+    }
+  },
+  {
+    "step": 4506000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4921.29551609146
+    }
+  },
+  {
+    "step": 4511000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4934.520486783978
+    }
+  },
+  {
+    "step": 4516000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4895.372056339323
+    }
+  },
+  {
+    "step": 4521000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5088.768115541665
+    }
+  },
+  {
+    "step": 4526000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4864.823727128844
+    }
+  },
+  {
+    "step": 4531000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4887.115168887141
+    }
+  },
+  {
+    "step": 4536000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4806.889408277821
+    }
+  },
+  {
+    "step": 4541000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4794.429273445268
+    }
+  },
+  {
+    "step": 4546000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4704.580597302407
+    }
+  },
+  {
+    "step": 4551000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4691.8632262074925
+    }
+  },
+  {
+    "step": 4556000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4652.349646956487
+    }
+  },
+  {
+    "step": 4561000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4804.466994434784
+    }
+  },
+  {
+    "step": 4566000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4705.771115050171
+    }
+  },
+  {
+    "step": 4571000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4787.343415593274
+    }
+  },
+  {
+    "step": 4576000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4901.591426150735
+    }
+  },
+  {
+    "step": 4581000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4842.381538495165
+    }
+  },
+  {
+    "step": 4586000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4770.184030089373
+    }
+  },
+  {
+    "step": 4591000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4697.719793226677
+    }
+  },
+  {
+    "step": 4596000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4714.118482350079
+    }
+  },
+  {
+    "step": 4601000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4825.630445959495
+    }
+  },
+  {
+    "step": 4606000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4740.4443856775315
+    }
+  },
+  {
+    "step": 4611000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4749.690754957502
+    }
+  },
+  {
+    "step": 4616000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4684.100163025574
+    }
+  },
+  {
+    "step": 4621000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4669.432228520378
+    }
+  },
+  {
+    "step": 4626000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4744.725502025674
+    }
+  },
+  {
+    "step": 4631000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4834.107603390441
+    }
+  },
+  {
+    "step": 4636000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4786.013522022385
+    }
+  },
+  {
+    "step": 4641000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4804.017991184054
+    }
+  },
+  {
+    "step": 4646000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4772.0196623949905
+    }
+  },
+  {
+    "step": 4651000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4700.2675540625205
+    }
+  },
+  {
+    "step": 4656000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4911.110470639466
+    }
+  },
+  {
+    "step": 4661000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4930.749175230869
+    }
+  },
+  {
+    "step": 4666000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4901.806744669049
+    }
+  },
+  {
+    "step": 4671000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4902.081970106653
+    }
+  },
+  {
+    "step": 4676000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4747.994948398754
+    }
+  },
+  {
+    "step": 4681000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4637.801932093109
+    }
+  },
+  {
+    "step": 4686000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4542.727746014692
+    }
+  },
+  {
+    "step": 4691000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4558.63667970424
+    }
+  },
+  {
+    "step": 4696000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4655.369650796647
+    }
+  },
+  {
+    "step": 4701000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4622.261646295452
+    }
+  },
+  {
+    "step": 4706000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4651.355699508178
+    }
+  },
+  {
+    "step": 4711000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4722.419558974758
+    }
+  },
+  {
+    "step": 4716000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4744.396528882323
+    }
+  },
+  {
+    "step": 4721000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4764.000971066611
+    }
+  },
+  {
+    "step": 4726000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4731.587105984167
+    }
+  },
+  {
+    "step": 4731000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4719.0870416398775
+    }
+  },
+  {
+    "step": 4736000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4810.536920091058
+    }
+  },
+  {
+    "step": 4741000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4986.966838104165
+    }
+  },
+  {
+    "step": 4746000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -5006.164294900434
+    }
+  },
+  {
+    "step": 4751000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4761.282804518353
+    }
+  },
+  {
+    "step": 4756000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4716.614483698044
+    }
+  },
+  {
+    "step": 4761000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4797.960616023942
+    }
+  },
+  {
+    "step": 4766000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4782.786180302969
+    }
+  },
+  {
+    "step": 4771000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4749.920962170569
+    }
+  },
+  {
+    "step": 4776000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4685.174620463933
+    }
+  },
+  {
+    "step": 4781000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4694.285145241086
+    }
+  },
+  {
+    "step": 4786000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4649.585036589962
+    }
+  },
+  {
+    "step": 4791000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4613.279063561013
+    }
+  },
+  {
+    "step": 4796000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4583.597851902131
+    }
+  },
+  {
+    "step": 4801000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4615.203278763132
+    }
+  },
+  {
+    "step": 4806000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4768.2494738086825
+    }
+  },
+  {
+    "step": 4811000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4784.0687272101495
+    }
+  },
+  {
+    "step": 4816000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4815.345862373682
+    }
+  },
+  {
+    "step": 4821000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4656.025644505331
+    }
+  },
+  {
+    "step": 4826000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4688.172406430712
+    }
+  },
+  {
+    "step": 4831000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4742.861418804458
+    }
+  },
+  {
+    "step": 4836000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4751.971847681199
+    }
+  },
+  {
+    "step": 4841000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4699.820440228005
+    }
+  },
+  {
+    "step": 4846000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4839.732984185868
+    }
+  },
+  {
+    "step": 4851000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4718.650273859321
+    }
+  },
+  {
+    "step": 4856000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4795.924343709257
+    }
+  },
+  {
+    "step": 4861000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4858.404922673665
+    }
+  },
+  {
+    "step": 4866000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4791.487057382877
+    }
+  },
+  {
+    "step": 4871000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4805.17237194695
+    }
+  },
+  {
+    "step": 4876000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4646.515205970352
+    }
+  },
+  {
+    "step": 4881000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4727.8634072520435
+    }
+  },
+  {
+    "step": 4886000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4744.152358192024
+    }
+  },
+  {
+    "step": 4891000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4759.192136086201
+    }
+  },
+  {
+    "step": 4896000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4954.823340928922
+    }
+  },
+  {
+    "step": 4901000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4766.989502670027
+    }
+  },
+  {
+    "step": 4906000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4755.2022936039775
+    }
+  },
+  {
+    "step": 4911000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4752.762415612163
+    }
+  },
+  {
+    "step": 4916000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4832.0964648012105
+    }
+  },
+  {
+    "step": 4921000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4824.493848442849
+    }
+  },
+  {
+    "step": 4926000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4597.591948274333
+    }
+  },
+  {
+    "step": 4931000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4625.3865285145075
+    }
+  },
+  {
+    "step": 4936000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4625.451369746001
+    }
+  },
+  {
+    "step": 4941000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4607.261307370802
+    }
+  },
+  {
+    "step": 4946000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4632.747917027088
+    }
+  },
+  {
+    "step": 4951000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4710.00349272685
+    }
+  },
+  {
+    "step": 4956000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4738.859530383388
+    }
+  },
+  {
+    "step": 4961000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4722.523059069109
+    }
+  },
+  {
+    "step": 4966000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4695.883782558772
+    }
+  },
+  {
+    "step": 4971000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4837.433427131158
+    }
+  },
+  {
+    "step": 4976000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4926.792617335121
+    }
+  },
+  {
+    "step": 4981000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4953.393162833706
+    }
+  },
+  {
+    "step": 4986000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4879.226874651564
+    }
+  },
+  {
+    "step": 4991000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4797.943272868514
+    }
+  },
+  {
+    "step": 4996000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4770.632310876388
+    }
+  },
+  {
+    "step": 5001000,
+    "reward": {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": -4797.57755235061
+    }
+  }
+]

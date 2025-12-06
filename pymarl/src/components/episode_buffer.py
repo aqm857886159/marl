@@ -100,7 +100,16 @@ class EpisodeBatch:
                 raise KeyError("{} not found in transition or episode data".format(k))
 
             dtype = self.scheme[k].get("dtype", th.float32)
-            v = th.tensor(v, dtype=dtype, device=self.device)
+
+            # Convert on CPU first to avoid CUDA kernel errors when the source
+            # is a Python list / numpy array, then move to target device.
+            if isinstance(v, th.Tensor):
+                tensor_v = v.to(dtype=dtype, device=self.device)
+            else:
+                np_v = np.asarray(v)
+                tensor_v = th.as_tensor(np_v, dtype=dtype, device="cpu").to(self.device)
+
+            v = tensor_v
             self._check_safe_view(v, target[k][_slices])
             target[k][_slices] = v.view_as(target[k][_slices])
 
