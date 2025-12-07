@@ -48,6 +48,17 @@ def load_pymarl_data(algo_name):
     learning_records = []
     eval_records = []
     
+    def to_scalar(v):
+        if isinstance(v, dict) and "value" in v:
+            try:
+                return float(v["value"])
+            except Exception:
+                return None
+        try:
+            return float(v)
+        except Exception:
+            return None
+
     # 对应的目录名，例如 edge_maddpg 或 edge_qmix
     algo_dir = PYMARL_BASE_DIR / f"edge_{algo_name.lower()}"
     if not algo_dir.exists():
@@ -68,11 +79,14 @@ def load_pymarl_data(algo_name):
             with open(train_file, 'r') as f:
                 data = json.load(f)
                 for entry in data:
+                    r = to_scalar(entry.get("reward"))
+                    if r is None:
+                        continue
                     learning_records.append({
                         "algorithm": algo_name,
                         "seed": seed,
                         "timestep": entry.get("step", 0),
-                        "reward": entry.get("reward", 0.0)
+                        "reward": r
                     })
 
         # B. 读取 Eval Log (各项指标)
@@ -89,7 +103,9 @@ def load_pymarl_data(algo_name):
                     # 提取各个指标
                     for json_key, csv_col in PYMARL_METRIC_MAP.items():
                         if json_key in entry:
-                            record[csv_col] = entry[json_key]
+                            val = to_scalar(entry[json_key])
+                            if val is not None:
+                                record[csv_col] = val
                     eval_records.append(record)
 
     print(f"[PyMARL] 加载了 {len(learning_records)} 条训练记录, {len(eval_records)} 条评估记录 ({algo_name})")

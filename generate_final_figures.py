@@ -30,10 +30,18 @@ def load_learning_curves(path: Path) -> pd.DataFrame:
     missing = [c for c in required_cols if c not in df.columns]
     if missing:
         raise ValueError(f"学习曲线缺少必要列: {missing}")
-    df = df[required_cols].dropna(subset=["episode_return_mean"])
+    # 转成数值，过滤非数值
+    df = df[required_cols].copy()
+    df["episode_return_mean"] = pd.to_numeric(df["episode_return_mean"], errors="coerce")
+    df = df.dropna(subset=["episode_return_mean"])
 
-    # 为了避免高频采样导致的“刷黑”问题，这里做一次下采样（每 50k 取一点）。
-    df = df[df["timestep"] % 50_000 == 0].copy()
+    # 以每 seed 为组做下采样，约每 25k 步一条（PyMARL 5k 间隔，Ray 更稀）
+    df = (
+        df.sort_values("timestep")
+          .groupby(["algorithm", "seed"], group_keys=False)
+          .apply(lambda x: x.iloc[::5])
+          .reset_index(drop=True)
+    )
     return df
 
 
