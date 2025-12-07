@@ -699,7 +699,6 @@ def run_experiment(alg_name, seed, num_iterations=None, max_timesteps=5_000_000,
     config = config.debugging(seed=seed)
 
     stop_criteria = {"timesteps_total": max_timesteps}
-    
     algo = config.build()
 
     results_log = []
@@ -743,7 +742,6 @@ def run_experiment(alg_name, seed, num_iterations=None, max_timesteps=5_000_000,
                     eval_attachment[key] = eval_metrics[mean_key]
                 elif key in eval_metrics: # 某些版本可能直接返回 key
                     eval_attachment[key] = eval_metrics[key]
-        
         if eval_attachment:
             log_entry.update(eval_attachment)
 

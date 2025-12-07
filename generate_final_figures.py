@@ -30,7 +30,11 @@ def load_learning_curves(path: Path) -> pd.DataFrame:
     missing = [c for c in required_cols if c not in df.columns]
     if missing:
         raise ValueError(f"学习曲线缺少必要列: {missing}")
-    return df[required_cols].dropna(subset=["episode_return_mean"])
+    df = df[required_cols].dropna(subset=["episode_return_mean"])
+
+    # 为了避免高频采样导致的“刷黑”问题，这里做一次下采样（每 50k 取一点）。
+    df = df[df["timestep"] % 50_000 == 0].copy()
+    return df
 
 
 def load_eval_metrics(path: Path) -> pd.DataFrame:
@@ -43,13 +47,20 @@ def load_eval_metrics(path: Path) -> pd.DataFrame:
     if not metric_cols:
         raise ValueError("评估指标 CSV 中没有可用的 metric 列")
 
-    melted = df.melt(
-        id_vars=id_cols,
-        value_vars=metric_cols,
-        var_name="metric",
-        value_name="value"
-    )
-    return melted.dropna(subset=["value"])
+    # 为避免各算法缺列导致整行被 drop，先对数值列按列填充 0，再展开
+    df[metric_cols] = df[metric_cols].fillna(0)
+
+    melted_list = []
+    for metric in metric_cols:
+        sub = df[id_cols + [metric]].copy()
+        sub = sub.rename(columns={metric: "value"})
+        sub["metric"] = metric
+        # 只移除该 metric 的空值，保留其他 metric
+        sub = sub.dropna(subset=["value"])
+        melted_list.append(sub)
+
+    melted = pd.concat(melted_list, ignore_index=True)
+    return melted
 
 
 def main():
@@ -64,16 +75,17 @@ def main():
     FIG_DIR.mkdir(parents=True, exist_ok=True)
 
     # Figure 3.3 & 3.4
-    fig1, (ax1, ax2) = plt.subplots(1, 2, figsize=(18, 6))
-    plot_learning_curves(df_curves, ax1)
     if df_convergence.empty:
-        ax2.set_title("Figure 3.4: Convergence Speed (No Data)")
-        ax2.text(0.5, 0.5, "暂无可用数据", ha="center", va="center", fontsize=12)
-        ax2.axis("off")
+        fig1, ax1 = plt.subplots(1, 1, figsize=(10, 6))
+        plot_learning_curves(df_curves, ax1)
+        fig1.tight_layout()
+        fig1.savefig(FIG_DIR / "figure_3.3_3.4_learning_curves.png", dpi=300)
     else:
+        fig1, (ax1, ax2) = plt.subplots(1, 2, figsize=(18, 6))
+        plot_learning_curves(df_curves, ax1)
         plot_convergence_speed(df_convergence, ax2)
-    fig1.tight_layout()
-    fig1.savefig(FIG_DIR / "figure_3.3_3.4_learning_curves.png", dpi=300)
+        fig1.tight_layout()
+        fig1.savefig(FIG_DIR / "figure_3.3_3.4_learning_curves.png", dpi=300)
 
     # Figure 3.5
     fig2, ax3 = plt.subplots(figsize=(8, 8), subplot_kw={"projection": "polar"})
