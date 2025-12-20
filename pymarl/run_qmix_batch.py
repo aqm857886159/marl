@@ -72,6 +72,12 @@ EARLY_STOP_METRIC = "return"  # 对应 PyMARL 的 test_return_mean（越大越�
 EVAL_INTERVAL = 50_000
 EVAL_EPISODES = 5
 
+# 训练 batch（影响显存占用）。
+# 经验：单进程 24GB 显存通常能扛住 128；但你现在常用 2 个 shard 并行跑，
+# 两个进程叠加容易在某些配置（例如 rnn_hidden_dim=128）出现 CUDA OOM。
+# 因此我们提供“失败自动降档重试”的 batch_size 列表：优先 128，OOM 则降到 64/32。
+TRAIN_BATCH_CANDIDATES = [128, 64, 32]
+
 # 日志频率（加速：减少 stdout/sacred 写盘与 console 格式化开销）
 # 说明：PyMARL 训练循环里每到 log_interval 会打印一次 Recent Stats；learner/runner 也有各自的日志节奏。
 # 原始配置是 5000（非常频繁，Windows 上尤其慢），这里调大到 20000，通常能明显省时。
@@ -273,37 +279,41 @@ def run_one_cfg(cfg: dict, seed: int, total_steps: int, phase: str):
         print(f"[SKIP] {target_dir} 已存在，跳过。")
         return
 
-    cmd = [
-        sys.executable,
-        "src/main.py",
-        "--config=edge_qmix",
-        "--env-config=edge_marl",
-        "with",
-        f"seed={seed}",
-        # PyMARL 配置键（注意：不是 agent.* 这种嵌套；否则 sacred 会报 ConfigAddedError）
-        # 真实使用处：src/components/action_selectors.py 读取 epsilon_finish / epsilon_anneal_time
-        f"rnn_hidden_dim={cfg['rnn']}",
-        f"mixing_embed_dim={cfg['mix']}",
-        f"lr={cfg['lr']}",
-        f"target_update_interval={cfg['tgt']}",
-        f"epsilon_finish={cfg['eps_end']}",
-        f"epsilon_anneal_time={int(cfg['eps_steps'])}",
-        # 训练总步数：PyMARL 主循环以 t_max 为上限（src/run.py）
-        f"t_max={int(total_steps)}",
-        # 评估设置：与 MAPPO 对齐 + 加速
-        f"test_interval={int(EVAL_INTERVAL)}",
-        f"test_nepisode={int(EVAL_EPISODES)}",
-        # 日志设置：减少打印/写盘频率以加速
-        f"log_interval={int(LOG_INTERVAL)}",
-        f"runner_log_interval={int(RUNNER_LOG_INTERVAL)}",
-        f"learner_log_interval={int(LEARNER_LOG_INTERVAL)}",
-    ]
+    def _build_cmd(train_batch_size: int) -> list[str]:
+        cmd = [
+            sys.executable,
+            "src/main.py",
+            "--config=edge_qmix",
+            "--env-config=edge_marl",
+            "with",
+            f"seed={seed}",
+            # PyMARL 配置键（注意：不是 agent.* 这种嵌套；否则 sacred 会报 ConfigAddedError）
+            # 真实使用处：src/components/action_selectors.py 读取 epsilon_finish / epsilon_anneal_time
+            f"rnn_hidden_dim={cfg['rnn']}",
+            f"mixing_embed_dim={cfg['mix']}",
+            f"lr={cfg['lr']}",
+            f"target_update_interval={cfg['tgt']}",
+            f"epsilon_finish={cfg['eps_end']}",
+            f"epsilon_anneal_time={int(cfg['eps_steps'])}",
+            # 训练总步数：PyMARL 主循环以 t_max 为上限（src/run.py）
+            f"t_max={int(total_steps)}",
+            # 评估设置：与 MAPPO 对齐 + 加速
+            f"test_interval={int(EVAL_INTERVAL)}",
+            f"test_nepisode={int(EVAL_EPISODES)}",
+            # 日志设置：减少打印/写盘频率以加速
+            f"log_interval={int(LOG_INTERVAL)}",
+            f"runner_log_interval={int(RUNNER_LOG_INTERVAL)}",
+            f"learner_log_interval={int(LEARNER_LOG_INTERVAL)}",
+            # 训练 batch（显存关键项）
+            f"batch_size={int(train_batch_size)}",
+        ]
+        return cmd
 
     # search 阶段启用早停（真正省时间）
     if phase == "search" and EARLY_STOP_ENABLE:
         baseline_ret = _load_qmix_baseline_return()
         if baseline_ret is not None:
-            cmd += [
+            early_stop_args = [
                 "early_stop_enable=True",
                 f"early_stop_steps={int(EARLY_STOP_STEPS)}",
                 f"early_stop_window={int(EARLY_STOP_WINDOW)}",
@@ -313,9 +323,49 @@ def run_one_cfg(cfg: dict, seed: int, total_steps: int, phase: str):
             ]
         else:
             print("[EARLY STOP] baselines.json 未提供 QMIX reward baseline，本次 search 不启用早停。")
+            early_stop_args = []
+    else:
+        early_stop_args = []
 
     t0 = time.time()
-    subprocess.run(cmd, check=True)
+
+    # 运行环境：降低 CUDA 内存碎片导致的 OOM（尤其是多进程并行时）
+    env = os.environ.copy()
+    env.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
+
+    # OOM 容错：自动降 batch_size 重试，避免整个 batch 因为单个 cfg 直接中断
+    last_err: Exception | None = None
+    for bs in TRAIN_BATCH_CANDIDATES:
+        cmd = _build_cmd(bs) + early_stop_args
+        try:
+            print(f"[RUN] cfg={cfg['id']} seed={seed} phase={phase} batch_size={bs}")
+            subprocess.run(cmd, check=True, env=env)
+            last_err = None
+            break
+        except subprocess.CalledProcessError as e:
+            last_err = e
+            # 常见：CUDA OOM / 其他运行时错误。这里先提示，再尝试降档。
+            print(f"[FAIL] cfg={cfg['id']} seed={seed} phase={phase} batch_size={bs} exit={e.returncode}")
+            if bs != TRAIN_BATCH_CANDIDATES[-1]:
+                print(f"[RETRY] 尝试降低 batch_size -> {TRAIN_BATCH_CANDIDATES[TRAIN_BATCH_CANDIDATES.index(bs)+1]}")
+            continue
+
+    if last_err is not None:
+        # 记录失败信息，避免你事后不知道哪个 cfg 因为 OOM/异常没跑完
+        ensure_dir(target_dir)
+        meta = {
+            "cfg": cfg,
+            "seed": seed,
+            "phase": phase,
+            "total_timesteps": total_steps,
+            "time_sec": time.time() - t0,
+            "status": "failed",
+            "error": str(last_err),
+        }
+        with open(target_dir / "meta.json", "w", encoding="utf-8") as f:
+            json.dump(meta, f, indent=2)
+        print(f"[FAIL-SAVE] {target_dir} 记录失败信息（不会转换 sacred->logs）。继续下一个 cfg。")
+        return
 
     # Sacred -> MADDPG 格式转换
     latest = get_latest_sacred_dir()
