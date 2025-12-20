@@ -3,6 +3,7 @@ import os
 import pprint
 import time
 import threading
+import sys
 import torch as th
 from types import SimpleNamespace as SN
 from utils.logging import Logger
@@ -76,9 +77,12 @@ def run(_run, _config, _log):
         pass
 
     # Making sure framework really exits
-    # Windows 的 os 模块没有 EX_OK 常量（会触发 AttributeError，导致 Sacred 将 run 标记为失败）
-    # 这里直接使用 0 作为成功退出码。
-    os._exit(0)
+    # 历史原因：Windows + sacred 在长跑后偶发退出异常，这里曾用 os._exit 强杀进程。
+    # 但在 Linux 上强杀会让 Sacred 来不及写入 metrics.json 等收尾文件，导致后处理混乱。
+    # 因此：仅在 Windows 上使用 os._exit；Linux/其它平台正常 return，让 Sacred 正常收尾。
+    if sys.platform.startswith("win"):
+        os._exit(0)
+    return
 
 
 def evaluate_sequential(args, runner):

@@ -110,8 +110,14 @@ if __name__ == '__main__':
     ex.add_config(config_dict)
 
     # Save to disk by default for sacred
-    logger.info("Saving to FileStorageObserver in results/sacred.")
-    file_obs_path = os.path.join(results_path, "sacred")
+    # 支持通过环境变量把 sacred 输出拆分到不同目录（解决并行 shard 互相抢写 results/sacred 的混乱）
+    sacred_dir = os.environ.get("PYMARL_SACRED_DIR", "").strip()
+    if sacred_dir:
+        file_obs_path = sacred_dir
+        logger.info(f"Saving to FileStorageObserver in {file_obs_path} (via PYMARL_SACRED_DIR).")
+    else:
+        logger.info("Saving to FileStorageObserver in results/sacred.")
+        file_obs_path = os.path.join(results_path, "sacred")
     ex.observers.append(FileStorageObserver.create(file_obs_path))
 
     ex.run_commandline(params)

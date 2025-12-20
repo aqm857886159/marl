@@ -16,14 +16,40 @@ def get_latest_sacred_dir(base_path="results/sacred"):
     return dirs[-1]
 
 def convert_sacred_to_maddpg_format(sacred_dir, output_dir):
-    """将 Sacred 的 metrics.json 转换为 MADDPG 风格的 eval_log.json"""
+    """将 Sacred 的 metrics.json/info.json 转换为 MADDPG 风格的 eval_log.json / training_log.json
+
+    兼容两种来源：
+    - metrics.json（sacred 收尾写入；更结构化）
+    - info.json（训练过程中持续写入；即使异常退出也通常存在）
+    """
     metrics_path = os.path.join(sacred_dir, "metrics.json")
-    if not os.path.exists(metrics_path):
-        print(f"[WARN] 未找到 metrics.json: {metrics_path}")
+    info_path = os.path.join(sacred_dir, "info.json")
+
+    sacred_data = None
+    mode = None
+    if os.path.exists(metrics_path):
+        with open(metrics_path, "r", encoding="utf-8") as f:
+            sacred_data = json.load(f)
+        mode = "metrics"
+    elif os.path.exists(info_path):
+        with open(info_path, "r", encoding="utf-8") as f:
+            sacred_data = json.load(f)
+        mode = "info"
+    else:
+        print(f"[WARN] 未找到 metrics.json 或 info.json: {sacred_dir}")
         return
 
-    with open(metrics_path, "r") as f:
-        sacred_data = json.load(f)
+    def _series(key: str):
+        """返回 (steps, values) 或 (None, None)"""
+        if mode == "metrics":
+            if key not in sacred_data:
+                return None, None
+            obj = sacred_data[key]
+            return obj.get("steps"), obj.get("values")
+        # info.json: key -> list, key_T -> list
+        if key not in sacred_data or f"{key}_T" not in sacred_data:
+            return None, None
+        return sacred_data.get(f"{key}_T"), sacred_data.get(key)
 
     # 1. 转换 Evaluation Logs (eval_log.json)
     # Sacred key: "test_avg_latency_ms_mean" -> {"steps": [], "values": []}
@@ -31,10 +57,10 @@ def convert_sacred_to_maddpg_format(sacred_dir, output_dir):
     eval_entries = []
     
     # 假设所有 test_ 指标的 step 都是对齐的，我们以 test_return_mean 为基准
-    if "test_return_mean" not in sacred_data:
-        print("[WARN] metrics.json 中没有 test_return_mean，跳过 Eval 转换。")
+    steps, _ = _series("test_return_mean")
+    if not steps:
+        print("[WARN] 找不到 test_return_mean，跳过 Eval 转换。")
     else:
-        steps = sacred_data["test_return_mean"]["steps"]
         n_points = len(steps)
         
         for i in range(n_points):
@@ -51,9 +77,9 @@ def convert_sacred_to_maddpg_format(sacred_dir, output_dir):
             }
             
             for target_k, sacred_k in mapping.items():
-                if sacred_k in sacred_data:
-                    # Sacred 记录的是 values 列表
-                    entry[target_k] = sacred_data[sacred_k]["values"][i]
+                s_steps, s_vals = _series(sacred_k)
+                if s_vals is not None and len(s_vals) > i:
+                    entry[target_k] = s_vals[i]
             
             eval_entries.append(entry)
 
@@ -66,9 +92,8 @@ def convert_sacred_to_maddpg_format(sacred_dir, output_dir):
     # 这里的粒度不如 MADDPG 细（MADDPG 记录每条 Episode），这里是 periodic log
     # 但画学习曲线足够了
     train_entries = []
-    if "return_mean" in sacred_data:
-        steps = sacred_data["return_mean"]["steps"]
-        values = sacred_data["return_mean"]["values"]
+    steps, values = _series("return_mean")
+    if steps and values:
         for s, v in zip(steps, values):
             train_entries.append({"step": s, "reward": v})
             

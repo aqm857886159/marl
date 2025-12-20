@@ -111,6 +111,20 @@ def _load_qmix_baseline_return() -> float | None:
 def ensure_dir(path: Path):
     path.mkdir(parents=True, exist_ok=True)
 
+
+def _tag_suffix(tag: str | None) -> str:
+    return "" if not tag else f"_{tag}"
+
+
+def _append_run_index(out_root: Path, row: dict):
+    """
+    追加写一行 jsonl：把 cfg_id/seed/phase 与 sacred_run_dir 绑定，避免“看不出哪个是哪个”的混乱。
+    """
+    ensure_dir(out_root)
+    p = out_root / "run_index.jsonl"
+    with open(p, "a", encoding="utf-8") as f:
+        f.write(json.dumps(row, ensure_ascii=False) + "\n")
+
 def _parse_ids_token(token: str) -> list[int]:
     """
     支持:
@@ -201,8 +215,8 @@ def _sample_stratified_lhs(n: int, rng: random.Random):
     return unique[:n]
 
 
-def _write_selected_space(space: list[dict]):
-    out = Path("results/edge_qmix")
+def _write_selected_space(space: list[dict], out_root: Path):
+    out = out_root
     ensure_dir(out)
     with open(out / "selected_search_space.json", "w", encoding="utf-8") as f:
         json.dump(
@@ -217,12 +231,12 @@ def _write_selected_space(space: list[dict]):
         )
 
 
-def _select_topk_from_results(topk: int) -> list[int]:
+def _select_topk_from_results(topk: int, out_root: Path) -> list[int]:
     """
     从 results/edge_qmix/cfg_*_search/eval_log.json 中选 Top-K。
     主指标：avg_latency_ms 最小；若缺失则用 reward 最大（更接近 0）。
     """
-    base = Path("results/edge_qmix")
+    base = out_root
     if not base.exists():
         return []
 
@@ -273,8 +287,17 @@ def _select_topk_from_results(topk: int) -> list[int]:
     return selected
 
 
-def run_one_cfg(cfg: dict, seed: int, total_steps: int, phase: str):
-    target_dir = Path(f"results/edge_qmix/cfg_{cfg['id']}_seed_{seed}_{phase}")
+def run_one_cfg(
+    cfg: dict,
+    seed: int,
+    total_steps: int,
+    phase: str,
+    *,
+    out_root: Path,
+    sacred_root: Path,
+    shard_label: str,
+):
+    target_dir = out_root / f"cfg_{cfg['id']}_seed_{seed}_{phase}"
     if target_dir.exists():
         print(f"[SKIP] {target_dir} 已存在，跳过。")
         return
@@ -332,6 +355,8 @@ def run_one_cfg(cfg: dict, seed: int, total_steps: int, phase: str):
     # 运行环境：降低 CUDA 内存碎片导致的 OOM（尤其是多进程并行时）
     env = os.environ.copy()
     env.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
+    # 将 sacred 输出拆分到独立目录（避免并行 shard 抢写 results/sacred 导致 run_id 混乱）
+    env["PYMARL_SACRED_DIR"] = str(sacred_root)
 
     # OOM 容错：自动降 batch_size 重试，避免整个 batch 因为单个 cfg 直接中断
     last_err: Exception | None = None
@@ -365,13 +390,30 @@ def run_one_cfg(cfg: dict, seed: int, total_steps: int, phase: str):
         with open(target_dir / "meta.json", "w", encoding="utf-8") as f:
             json.dump(meta, f, indent=2)
         print(f"[FAIL-SAVE] {target_dir} 记录失败信息（不会转换 sacred->logs）。继续下一个 cfg。")
+        _append_run_index(
+            out_root,
+            {
+                "ts": time.time(),
+                "shard": shard_label,
+                "cfg_id": int(cfg["id"]),
+                "seed": int(seed),
+                "phase": phase,
+                "status": "failed",
+                "sacred_root": str(sacred_root),
+                "error": str(last_err),
+                "target_dir": str(target_dir),
+            },
+        )
         return
 
     # Sacred -> MADDPG 格式转换
-    latest = get_latest_sacred_dir()
+    latest = get_latest_sacred_dir(base_path=str(sacred_root))
     if latest:
         ensure_dir(target_dir)
         convert_sacred_to_maddpg_format(latest, str(target_dir))
+        sacred_run_id = os.path.basename(latest)
+    else:
+        sacred_run_id = None
 
     meta = {
         "cfg": cfg,
@@ -384,8 +426,23 @@ def run_one_cfg(cfg: dict, seed: int, total_steps: int, phase: str):
         json.dump(meta, f, indent=2)
     print(f"[SAVE] {target_dir} 完成，总步数 {total_steps}")
 
+    _append_run_index(
+        out_root,
+        {
+            "ts": time.time(),
+            "shard": shard_label,
+            "cfg_id": int(cfg["id"]),
+            "seed": int(seed),
+            "phase": phase,
+            "status": "ok",
+            "sacred_root": str(sacred_root),
+            "sacred_run_id": sacred_run_id,
+            "target_dir": str(target_dir),
+        },
+    )
 
-def build_search_space():
+
+def build_search_space(out_root: Path):
     rng = random.Random(SEARCH_SAMPLE_SEED)
     if SAMPLING_METHOD == "stratified_lhs":
         combos = _sample_stratified_lhs(MAX_SEARCH, rng)
@@ -408,7 +465,7 @@ def build_search_space():
         )
 
     if SAVE_SELECTED_CONFIGS:
-        _write_selected_space(space)
+        _write_selected_space(space, out_root=out_root)
     return space
 
 
@@ -425,6 +482,7 @@ def main():
     ids_arg: str | None = None
     shard_idx: int | None = None
     num_shards: int | None = None
+    tag: str | None = None
 
     if "--ids" in args:
         i = args.index("--ids")
@@ -443,21 +501,34 @@ def main():
             else:
                 raise ValueError("--shard 需要形如 0/2 的参数")
 
+    if "--tag" in args:
+        i = args.index("--tag")
+        if i + 1 < len(args):
+            tag = args[i + 1].strip()
+
+    # 输出根目录：用 tag 隔离，避免“上传/重复/混合环境”导致的结果撞名
+    out_root = Path("results") / f"edge_qmix{_tag_suffix(tag)}"
+    # sacred 根目录：每个 shard 独立目录，避免并行互相抢写
+    shard_label = "single"
+    if shard_idx is not None and num_shards is not None:
+        shard_label = f"shard{shard_idx}_of_{num_shards}"
+    sacred_root = Path("results") / f"sacred{_tag_suffix(tag)}_{shard_label}"
+
     if final_mode:
         candidates = FINAL_CANDIDATES
         if not candidates:
-            candidates = _select_topk_from_results(AUTO_TOPK)
+            candidates = _select_topk_from_results(AUTO_TOPK, out_root=out_root)
             if candidates:
                 print(f"[AUTO FINAL] selected top{AUTO_TOPK} cfg_ids from results:", candidates)
         if not candidates:
             print("[WARN] 未找到入围配置：请先运行 search 或手动填写 FINAL_CANDIDATES。")
             return
 
-        cfg_space = [c for c in build_search_space() if c["id"] in candidates]
+        cfg_space = [c for c in build_search_space(out_root) if c["id"] in candidates]
         total_steps = FINAL_STEPS
         phase = "final"
     else:
-        cfg_space = build_search_space()
+        cfg_space = build_search_space(out_root)
         total_steps = SEARCH_STEPS
         phase = "search"
 
@@ -477,7 +548,15 @@ def main():
 
     for cfg in cfg_space:
         seed = cfg["id"] % 3  # 轮换 3 个种子
-        run_one_cfg(cfg, seed, total_steps, phase)
+        run_one_cfg(
+            cfg,
+            seed,
+            total_steps,
+            phase,
+            out_root=out_root,
+            sacred_root=sacred_root,
+            shard_label=shard_label,
+        )
 
 
 if __name__ == "__main__":
