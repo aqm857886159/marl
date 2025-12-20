@@ -3,6 +3,7 @@ import os
 import collections
 from os.path import dirname, abspath
 from copy import deepcopy
+import logging
 from sacred import Experiment, SETTINGS
 from sacred.observers import FileStorageObserver
 from sacred.utils import apply_backspaces_and_linefeeds
@@ -13,7 +14,15 @@ import yaml
 
 from run import run
 
-SETTINGS['CAPTURE_MODE'] = "fd" # set to "no" if you want to see stdout/stderr in console
+# Windows 下 sacred 的 CAPTURE_MODE="fd" 容易在长跑后触发 WinError 1（stdout/stderr 句柄异常）
+# 这里强制改为更稳的 "sys"（也可用 "no" 完全关闭捕获）。
+SETTINGS['CAPTURE_MODE'] = "sys"
+
+# 减少 GitPython 在 DEBUG 级别下的刷屏/开销（sacred 会读取 git 信息）
+# 说明：我们自己的 logger 设为 DEBUG（见 utils/logging.py），会把 git.* 的 DEBUG 也打印出来。
+# 这里显式把 git 相关 logger 压到 WARNING，减少输出和少量启动开销。
+for _name in ("git", "git.cmd", "git.util", "git.repo", "git.remote"):
+    logging.getLogger(_name).setLevel(logging.WARNING)
 logger = get_logger()
 
 ex = Experiment("pymarl")
@@ -44,7 +53,13 @@ def _get_config(params, arg_name, subfolder):
             break
 
     if config_name is not None:
-        with open(os.path.join(os.path.dirname(__file__), "config", subfolder, "{}.yaml".format(config_name)), "r") as f:
+        # Windows 默认编码可能是 GBK，遇到 UTF-8 YAML 会 UnicodeDecodeError
+        # 用 utf-8-sig 兼容带 BOM 的 UTF-8 文件
+        with open(
+            os.path.join(os.path.dirname(__file__), "config", subfolder, "{}.yaml".format(config_name)),
+            "r",
+            encoding="utf-8-sig",
+        ) as f:
             try:
                 config_dict = yaml.load(f, Loader=yaml.FullLoader)
             except yaml.YAMLError as exc:
@@ -74,7 +89,11 @@ if __name__ == '__main__':
     params = deepcopy(sys.argv)
 
     # Get the defaults from default.yaml
-    with open(os.path.join(os.path.dirname(__file__), "config", "default.yaml"), "r") as f:
+    with open(
+        os.path.join(os.path.dirname(__file__), "config", "default.yaml"),
+        "r",
+        encoding="utf-8-sig",
+    ) as f:
         try:
             config_dict = yaml.load(f, Loader=yaml.FullLoader)
         except yaml.YAMLError as exc:

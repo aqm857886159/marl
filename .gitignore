@@ -1,0 +1,32 @@
+# ===== Python / Cache =====
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ===== OS / IDE =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ===== ML / Logs / Artifacts (do not commit) =====
+*.pt
+*.pth
+*.ckpt
+
+# PyMARL outputs
+pymarl/results/
+
+# Custom experiment outputs / logs
+hparam_logs/
+experiment_outputs/
+
+# Local bundles / exports
+all_results_bundle.zip
+
+

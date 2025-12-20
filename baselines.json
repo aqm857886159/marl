@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "notes": "项目基线（single source of truth）。用于早停阈值/论文复现。数值来自各自算法在 target_step 附近的评估，reward 建议取 window_mean（更稳）。",
+  "mappo": {
+    "source": {
+      "how": "run_mappo_experiment(seed=0, max_total_steps=2000000) 运行日志在终端输出",
+      "target_step": 1000000,
+      "window": 3,
+      "comment": "当前先用 1M 附近 reward 的经验均值作为早停基线；后续可从保存的训练日志再精确回填 window_mean。"
+    },
+    "reward_baseline": -1200.0
+  },
+  "qmix": {
+    "source": {
+      "run_id": 10,
+      "file": "pymarl/results/sacred/10/info.json",
+      "extracted_by": "pymarl/extract_qmix_baseline.py",
+      "target_step": 1000000,
+      "window": 3,
+      "nearest_step": 1001000
+    },
+    "reward_at_nearest": -5262.560171225761,
+    "reward_window_mean": -5142.737993018261,
+    "avg_latency_ms_window_mean": 7266.804179652659,
+    "avg_energy_J_window_mean": 4.275151094172547,
+    "throughput_tps_window_mean": 311.0419536789188,
+    "load_balance_jain_window_mean": 1.0000000000000002,
+    "deadline_violation_rate_window_mean": 1.0
+  }
+}
+
+

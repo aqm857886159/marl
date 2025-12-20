@@ -48,19 +48,37 @@ def run(_run, _config, _log):
     run_sequential(args=args, logger=logger)
 
     # Clean up after finishing
-    print("Exiting Main")
+    try:
+        print("Exiting Main")
+    except OSError:
+        # Windows + sacred 捕获输出时偶发 stdout/stderr 句柄异常，忽略该打印以保证正常退出码
+        pass
 
-    print("Stopping all threads")
+    try:
+        print("Stopping all threads")
+    except OSError:
+        pass
     for t in threading.enumerate():
         if t.name != "MainThread":
-            print("Thread {} is alive! Is daemon: {}".format(t.name, t.daemon))
+            try:
+                print("Thread {} is alive! Is daemon: {}".format(t.name, t.daemon))
+            except OSError:
+                pass
             t.join(timeout=1)
-            print("Thread joined")
+            try:
+                print("Thread joined")
+            except OSError:
+                pass
 
-    print("Exiting script")
+    try:
+        print("Exiting script")
+    except OSError:
+        pass
 
     # Making sure framework really exits
-    os._exit(os.EX_OK)
+    # Windows 的 os 模块没有 EX_OK 常量（会触发 AttributeError，导致 Sacred 将 run 标记为失败）
+    # 这里直接使用 0 作为成功退出码。
+    os._exit(0)
 
 
 def evaluate_sequential(args, runner):
@@ -155,6 +173,27 @@ def run_sequential(args, logger):
     last_log_T = 0
     model_save_time = 0
 
+    # early stop helpers
+    def _recent_mean(key: str, window: int) -> float | None:
+        if key not in logger.stats:
+            return None
+        vals = [x[1] for x in logger.stats[key]]
+        if len(vals) < window:
+            return None
+        # handle torch tensors
+        tail = vals[-window:]
+        out = []
+        for v in tail:
+            if hasattr(v, "cpu"):
+                v = v.cpu().item() if getattr(v, "numel", lambda: 0)() == 1 else float(v.cpu().numpy())
+            try:
+                out.append(float(v))
+            except Exception:
+                continue
+        if len(out) < window:
+            return None
+        return sum(out) / float(window)
+
     start_time = time.time()
     last_time = start_time
 
@@ -190,6 +229,45 @@ def run_sequential(args, logger):
             last_test_T = runner.t_env
             for _ in range(n_test_runs):
                 runner.run(test_mode=True)
+
+            # ===== Early stopping (saves compute) =====
+            if getattr(args, "early_stop_enable", False) and getattr(args, "early_stop_baseline", None) is not None:
+                try:
+                    es_steps = int(getattr(args, "early_stop_steps", 0))
+                    es_window = int(getattr(args, "early_stop_window", 3))
+                    es_ratio = float(getattr(args, "early_stop_ratio", 0.8))
+                    es_metric = str(getattr(args, "early_stop_metric", "latency")).strip().lower()
+                    baseline = float(getattr(args, "early_stop_baseline"))
+                except Exception:
+                    es_steps = 0
+                    es_window = 3
+                    es_ratio = 0.8
+                    es_metric = "latency"
+                    baseline = None
+
+                if baseline is not None and runner.t_env >= es_steps:
+                    if es_metric == "return":
+                        m = _recent_mean("test_return_mean", es_window)
+                        if m is not None:
+                            # 适配负 return：只有显著更差（更负）才停
+                            thr = baseline - (1.0 - es_ratio) * abs(baseline)
+                            if m < thr:
+                                logger.console_logger.warning(
+                                    f"[EARLY STOP] test_return_mean(last{es_window})={m:.4f} < threshold={thr:.4f} "
+                                    f"(baseline={baseline}, ratio={es_ratio}) at t_env={runner.t_env}"
+                                )
+                                break
+                    else:
+                        # latency 越小越好：阈值=baseline/ratio（ratio<1 允许更差一些）
+                        m = _recent_mean("test_avg_latency_ms_mean", es_window)
+                        if m is not None and es_ratio > 0:
+                            thr = baseline / es_ratio
+                            if m > thr:
+                                logger.console_logger.warning(
+                                    f"[EARLY STOP] test_avg_latency_ms_mean(last{es_window})={m:.4f} > threshold={thr:.4f} "
+                                    f"(baseline={baseline}, ratio={es_ratio}) at t_env={runner.t_env}"
+                                )
+                                break
 
         if args.save_model and (runner.t_env - model_save_time >= args.save_model_interval or model_save_time == 0):
             model_save_time = runner.t_env

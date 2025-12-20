@@ -36,6 +36,16 @@ optim_alpha: 0.99 # RMSProp alpha
 optim_eps: 0.00001 # RMSProp epsilon
 grad_norm_clip: 10 # Reduce magnitude of gradients above this L2 norm
 
+# --- Early stopping (optional) ---
+# 说明：用于在训练过程中基于测试指标提前停止（节省算力）。
+# 这些参数会在 src/run.py 中被实际读取，因此不会触发 Sacred 的 ConfigAddedError。
+early_stop_enable: False
+early_stop_steps: 500000          # >=该步数后才开始判定
+early_stop_window: 3              # 最近 N 次 test 指标做均值
+early_stop_metric: "latency"      # "latency" 或 "return"
+early_stop_ratio: 0.8             # 容忍度：return 用(越大越好)；latency 用(越小越好，阈值=baseline/ratio)
+early_stop_baseline: null         # baseline 数值（由外部脚本传入）
+
 # --- Agent parameters ---
 agent: "rnn" # Default rnn agent
 rnn_hidden_dim: 64 # Size of hidden state for default rnn agent
